@@ -118,7 +118,8 @@ async function fetchAllColombia(company, facetId) {
   let total = Infinity;
   while (offset < total) {
     const payload = await workdayRequest(company, {
-      appliedFacets: { locationCountry: [facetId] },
+      // facetId null ⇒ sitio 100% Colombia (allColombia): traer todo sin facet
+      appliedFacets: facetId ? { locationCountry: [facetId] } : {},
       limit: PAGE_SIZE,
       offset,
       searchText: ""
@@ -200,7 +201,10 @@ for (const company of tierOne) {
     const colombiaFacetId = findColombiaFacet(discovery.facets);
     let postings;
     let status;
-    if (colombiaFacetId) {
+    if (company.allColombia) {
+      postings = await fetchAllColombia(company, null);
+      status = "ok";
+    } else if (colombiaFacetId) {
       postings = await fetchAllColombia(company, colombiaFacetId);
       status = "ok";
     } else {

@@ -18,6 +18,12 @@
     "matches": 1
   },
   {
+    "name": "Bavaria",
+    "status": "ok",
+    "colombiaPostings": 3,
+    "matches": 0
+  },
+  {
     "name": "BD",
     "status": "no-colombia-facet",
     "colombiaPostings": 0,
@@ -141,6 +147,12 @@
     "name": "Mars",
     "status": "no-colombia-facet",
     "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Medtronic",
+    "status": "ok",
+    "colombiaPostings": 16,
     "matches": 0
   },
   {
