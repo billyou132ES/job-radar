@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A1%3C/text%3E%3C/svg%3E">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Radar de Empleo</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f7fb;
+      --surface: #fff;
+      --surface-2: #edf2f8;
+      --text: #172033;
+      --muted: #617086;
+      --line: #d9e1ec;
+      --accent: #3157d5;
+      --accent-strong: #2442a8;
+      --accent-soft: #e8edff;
+      --good: #16794a;
+      --good-soft: #dcf6e9;
+      --warn: #9b5c00;
+      --warn-soft: #fff0cc;
+      --danger: #b42318;
+      --shadow: 0 12px 32px rgba(31, 45, 71, .08);
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    button, input, select, textarea { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    a { color: var(--accent); }
+    .shell { width: min(1160px, 100%); margin: 0 auto; padding: 20px 16px 48px; }
+    header { display: flex; gap: 16px; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+    h1 { margin: 0; font-size: clamp(1.55rem, 5vw, 2.2rem); letter-spacing: -.04em; }
+    h2, h3 { line-height: 1.2; }
+    .subtitle, .muted { color: var(--muted); }
+    .subtitle { margin: 2px 0 0; font-size: .93rem; }
+    .tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; padding: 6px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); box-shadow: var(--shadow); position: sticky; top: 8px; z-index: 10; }
+    .tab { border: 0; border-radius: 10px; background: transparent; color: var(--muted); padding: 10px 6px; cursor: pointer; font-weight: 700; font-size: .78rem; }
+    .tab[aria-selected="true"] { color: #fff; background: var(--accent); }
+    .panel { display: none; padding-top: 22px; }
+    .panel.active { display: block; }
+    .tiles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 16px; }
+    .tile, .card { border: 1px solid var(--line); background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .tile { padding: 15px; }
+    .tile strong { display: block; font-size: 1.65rem; line-height: 1.15; }
+    .tile span { color: var(--muted); font-size: .82rem; }
+    .card { padding: 16px; }
+    .filters { display: grid; gap: 10px; margin-bottom: 16px; }
+    label { display: grid; gap: 6px; color: var(--muted); font-size: .84rem; font-weight: 650; }
+    input, select, textarea { width: 100%; min-height: 44px; border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; background: var(--surface); color: var(--text); }
+    textarea { min-height: 94px; resize: vertical; }
+    input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 32%, transparent); outline-offset: 1px; }
+    .check { display: flex; align-items: center; gap: 8px; min-height: 44px; }
+    .check input { width: 18px; min-height: 18px; }
+    .jobs { display: grid; gap: 10px; }
+    .job { display: grid; gap: 10px; }
+    .job h3 { margin: 0; font-size: 1.02rem; }
+    .job-meta { display: flex; flex-wrap: wrap; gap: 5px 12px; color: var(--muted); font-size: .86rem; }
+    .job-bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+    .badges { display: flex; flex-wrap: wrap; gap: 6px; }
+    .badge { display: inline-flex; align-items: center; min-height: 24px; padding: 3px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); font-size: .72rem; font-weight: 800; letter-spacing: .02em; }
+    .badge.new, .badge.junior, .badge.covered { background: var(--good-soft); color: var(--good); }
+    .badge.senior { opacity: .68; }
+    .badge.manual { background: var(--warn-soft); color: var(--warn); }
+    .button { display: inline-flex; min-height: 42px; align-items: center; justify-content: center; gap: 6px; border: 0; border-radius: 10px; padding: 9px 13px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 750; cursor: pointer; }
+    .button:hover { background: var(--accent-strong); }
+    .button.secondary { border: 1px solid var(--line); background: var(--surface-2); color: var(--text); }
+    .button.danger { background: transparent; color: var(--danger); border: 1px solid color-mix(in srgb, var(--danger) 35%, var(--line)); }
+    .button.small { min-height: 36px; padding: 7px 10px; font-size: .82rem; }
+    .empty { padding: 30px 18px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: var(--radius); background: var(--surface); }
+    .launcher { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+    .company { display: flex; min-height: 140px; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 14px; }
+    .company h3 { margin: 0 0 5px; font-size: 1rem; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+    table { width: 100%; min-width: 1060px; border-collapse: collapse; }
+    th, td { padding: 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; }
+    td input, td select, td textarea { min-width: 130px; min-height: 38px; padding: 7px 8px; }
+    td textarea { min-width: 190px; min-height: 64px; }
+    .profile-note { margin: 0 0 16px; border-left: 4px solid var(--accent); padding: 10px 12px; background: var(--accent-soft); color: var(--text); border-radius: 8px; }
+    .profile-grid { display: grid; gap: 12px; }
+    .field { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 8px; }
+    .field label { min-width: 0; }
+    .field.wide { grid-column: 1 / -1; }
+    .status-line { margin-top: 16px; color: var(--muted); font-size: .85rem; text-align: center; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+    .toast { position: fixed; right: 16px; bottom: 18px; max-width: min(360px, calc(100vw - 32px)); padding: 11px 14px; border-radius: 10px; background: var(--text); color: var(--surface); box-shadow: var(--shadow); opacity: 0; transform: translateY(12px); pointer-events: none; transition: .18s ease; z-index: 20; }
+    .toast.show { opacity: 1; transform: translateY(0); }
+    @media (min-width: 720px) {
+      .shell { padding-top: 30px; }
+      .tab { font-size: .9rem; }
+      .tiles { grid-template-columns: repeat(4, 1fr); }
+      .filters { grid-template-columns: 2fr 1fr 1fr auto; align-items: end; }
+      .job { grid-template-columns: 1fr auto; align-items: center; }
+      .job-bottom { display: grid; justify-items: end; }
+      .profile-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1520; --surface: #171f2c; --surface-2: #222c3b; --text: #edf2f8;
+        --muted: #aab6c8; --line: #344055; --accent: #7894ff; --accent-strong: #607ce9;
+        --accent-soft: #202d58; --good: #74d6a4; --good-soft: #173b2e;
+        --warn: #ffd078; --warn-soft: #45361c; --danger: #ff8d85;
+        --shadow: 0 12px 32px rgba(0, 0, 0, .22);
+      }
+      .tab[aria-selected="true"], .button { color: #10182a; }
+      .toast { background: #f4f7fb; color: #172033; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <h1>Radar de Empleo</h1>
+        <p class="subtitle">Vacantes, empresas y postulaciones en un solo lugar.</p>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="Secciones">
+      <button class="tab" type="button" role="tab" aria-selected="true" aria-controls="radar" data-panel="radar">Radar</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="launcher" data-panel="launcher">Lanzador</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="tracker" data-panel="tracker">Tracker</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="profile" data-panel="profile">Mi perfil</button>
+    </nav>
+
+    <main>
+      <section id="radar" class="panel active" role="tabpanel">
+        <div class="tiles" aria-label="Resumen">
+          <div class="tile"><strong id="newToday">—</strong><span>Nuevas hoy</span></div>
+          <div class="tile"><strong id="lastWeek">—</strong><span>Últimos 7 días</span></div>
+          <div class="tile"><strong id="totalJobs">—</strong><span>Total vacantes</span></div>
+          <div class="tile"><strong id="scannedCompanies">—</strong><span>Empresas escaneadas</span></div>
+        </div>
+        <div class="card filters">
+          <label>Buscar
+            <input id="jobSearch" type="search" placeholder="Cargo, empresa o ciudad">
+          </label>
+          <label>Empresa
+            <select id="companyFilter"><option value="">Todas</option></select>
+          </label>
+          <label>Nivel
+            <select id="levelFilter"><option value="">Todos</option><option value="junior">Junior</option><option value="mid">Mid</option><option value="senior">Senior</option></select>
+          </label>
+          <label class="check"><input id="weekFilter" type="checkbox"> Solo esta semana</label>
+        </div>
+        <div id="jobs" class="jobs" aria-live="polite"><div class="empty">Cargando vacantes…</div></div>
+        <p id="updatedAt" class="status-line"></p>
+      </section>
+
+      <section id="launcher" class="panel" role="tabpanel" hidden>
+        <h2>Lanzador de búsquedas</h2>
+        <p class="muted">El radar cubre automáticamente Workday. Las demás empresas se revisan a mano.</p>
+        <div id="companies" class="launcher"><div class="empty">Cargando empresas…</div></div>
+      </section>
+
+      <section id="tracker" class="panel" role="tabpanel" hidden>
+        <h2>Tracker de postulaciones</h2>
+        <p class="muted">Se guarda únicamente en este navegador.</p>
+        <div class="toolbar">
+          <button id="addManual" class="button" type="button">+ Agregar fila</button>
+          <button id="exportCsv" class="button secondary" type="button">Exportar CSV</button>
+          <label class="button secondary" for="importCsv">Importar CSV</label><input id="importCsv" class="sr-only" type="file" accept=".csv,text/csv">
+          <button id="backupJson" class="button secondary" type="button">Backup JSON</button>
+          <label class="button secondary" for="restoreJson">Restaurar JSON</label><input id="restoreJson" class="sr-only" type="file" accept=".json,application/json">
+        </div>
+        <div id="trackerContent"></div>
+      </section>
+
+      <section id="profile" class="panel" role="tabpanel" hidden>
+        <h2>Mi perfil</h2>
+        <p class="profile-note">Estos datos solo se guardan en tu navegador; nadie más los ve.</p>
+        <div id="profileFields" class="card profile-grid"></div>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+  (() => {
+    "use strict";
+    const TRACKER_KEY = "radar.tracker.v1";
+    const PROFILE_KEY = "radar.profile.v1";
+    const STATUSES = ["Por aplicar", "Aplicada", "Entrevista", "Oferta", "Rechazada"];
+    const DATA_PATHS = ["./data/", "../data/"];
+    const state = { jobs: [], companies: [], report: [], generatedAt: null, tracker: load(TRACKER_KEY, []), profile: load(PROFILE_KEY, {}) };
+
+    function load(key, fallback) {
+      try {
+        const value = JSON.parse(localStorage.getItem(key));
+        return value ?? fallback;
+      } catch { return fallback; }
+    }
+    function save(key, value) { localStorage.setItem(key, JSON.stringify(value)); }
+    function normalize(value = "") { return String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es"); }
+    function today() { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
+    function daysAgo(count) { const d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - count); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
+    function uid() { return globalThis.crypto?.randomUUID?.() ?? `manual-${Date.now()}-${Math.random().toString(16).slice(2)}`; }
+    function el(tag, attrs = {}, text = null) {
+      const node = document.createElement(tag);
+      for (const [key, value] of Object.entries(attrs)) {
+        if (key === "class") node.className = value;
+        else if (key.startsWith("on")) node.addEventListener(key.slice(2), value);
+        else node.setAttribute(key, value);
+      }
+      if (text !== null) node.textContent = text;
+      return node;
+    }
+    let toastTimer;
+    function toast(message) {
+      const node = document.getElementById("toast");
+      node.textContent = message; node.classList.add("show");
+      clearTimeout(toastTimer); toastTimer = setTimeout(() => node.classList.remove("show"), 2400);
+    }
+    async function fetchData(file) {
+      let lastError;
+      for (const base of DATA_PATHS) {
+        try {
+          const response = await fetch(`${base}${file}`, { cache: "no-store" });
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return await response.json();
+        } catch (error) { lastError = error; }
+      }
+      throw lastError;
+    }
+
+    document.querySelectorAll(".tab").forEach((tab) => tab.addEventListener("click", () => {
+      document.querySelectorAll(".tab").forEach((item) => item.setAttribute("aria-selected", String(item === tab)));
+      document.querySelectorAll(".panel").forEach((panel) => {
+        const active = panel.id === tab.dataset.panel;
+        panel.classList.toggle("active", active); panel.hidden = !active;
+      });
+      if (tab.dataset.panel === "tracker") renderTracker();
+    }));
+
+    function badge(text, className = "") { return el("span", { class: `badge ${className}`.trim() }, text); }
+    function renderSummary() {
+      const current = today(); const weekStart = daysAgo(6);
+      document.getElementById("newToday").textContent = state.jobs.filter((j) => j.firstSeen === current).length;
+      document.getElementById("lastWeek").textContent = state.jobs.filter((j) => j.firstSeen >= weekStart).length;
+      document.getElementById("totalJobs").textContent = state.jobs.length;
+      document.getElementById("scannedCompanies").textContent = state.report.length;
+      document.getElementById("updatedAt").textContent = state.generatedAt
+        ? `Actualizado: ${new Intl.DateTimeFormat("es-CO", { dateStyle: "medium", timeStyle: "short" }).format(new Date(state.generatedAt))}`
+        : "No fue posible leer la fecha de actualización.";
+    }
+    function renderCompanyFilter() {
+      const select = document.getElementById("companyFilter");
+      [...new Set(state.jobs.map((job) => job.company))].sort((a, b) => a.localeCompare(b, "es")).forEach((name) => select.append(el("option", { value: name }, name)));
+    }
+    function filteredJobs() {
+      const query = normalize(document.getElementById("jobSearch").value);
+      const company = document.getElementById("companyFilter").value;
+      const level = document.getElementById("levelFilter").value;
+      const weekOnly = document.getElementById("weekFilter").checked;
+      const weekStart = daysAgo(6);
+      return state.jobs.filter((job) => {
+        const haystack = normalize(`${job.title} ${job.company} ${job.location}`);
+        return (!query || haystack.includes(query)) && (!company || job.company === company) &&
+          (!level || job.level === level) && (!weekOnly || job.firstSeen >= weekStart);
+      });
+    }
+    function renderJobs() {
+      const root = document.getElementById("jobs"); root.replaceChildren();
+      const jobs = filteredJobs();
+      if (!jobs.length) { root.append(el("div", { class: "empty" }, state.jobs.length ? "No hay vacantes con esos filtros." : "No hay vacantes relevantes por ahora. Vuelve después del próximo escaneo.")); return; }
+      for (const job of jobs) {
+        const card = el("article", { class: "card job" });
+        const info = el("div");
+        const heading = el("h3"); heading.append(el("a", { href: job.url, target: "_blank", rel: "noopener noreferrer" }, job.title));
+        info.append(heading, el("div", { class: "job-meta" }));
+        info.lastChild.append(el("strong", {}, job.company), el("span", {}, job.location || "Ubicación no indicada"), el("span", {}, job.postedOn || "Fecha no indicada"));
+        const side = el("div", { class: "job-bottom" }); const badges = el("div", { class: "badges" });
+        if (job.firstSeen === today()) badges.append(badge("NUEVA", "new"));
+        badges.append(badge(job.level.toUpperCase(), job.level));
+        side.append(badges, el("button", { class: "button small", type: "button", onclick: () => addJobToTracker(job) }, "→ Tracker"));
+        card.append(info, side); root.append(card);
+      }
+    }
+    ["jobSearch", "companyFilter", "levelFilter", "weekFilter"].forEach((id) => document.getElementById(id).addEventListener(id === "jobSearch" ? "input" : "change", renderJobs));
+
+    function renderCompanies() {
+      const root = document.getElementById("companies"); root.replaceChildren();
+      if (!state.companies.length) { root.append(el("div", { class: "empty" }, "No fue posible cargar el catálogo. Intenta recargar la página.")); return; }
+      for (const company of state.companies) {
+        const card = el("article", { class: "card company" }); const top = el("div");
+        top.append(el("h3", {}, company.name), company.tier === 1 ? badge("Cubierta por el radar", "covered") : badge("Revisión manual", "manual"));
+        const link = el("a", { class: "button small", href: company.searchUrl || company.careersUrl, target: "_blank", rel: "noopener noreferrer" }, "Abrir vacantes ↗");
+        card.append(top, link); root.append(card);
+      }
+    }
+
+    function blankRow() { return { id: uid(), sourceId: "", company: "", title: "", link: "", appliedDate: "", status: "Por aplicar", nextAction: "", notes: "" }; }
+    function addJobToTracker(job) {
+      if (state.tracker.some((row) => row.sourceId === job.id)) { toast("Esta vacante ya está en el tracker."); return; }
+      state.tracker.unshift({ id: uid(), sourceId: job.id, company: job.company, title: job.title, link: job.url, appliedDate: "", status: "Por aplicar", nextAction: "", notes: "" });
+      save(TRACKER_KEY, state.tracker); toast("Vacante agregada al tracker.");
+    }
+    function trackerInput(row, field, type = "text") {
+      const input = el("input", { type, value: row[field] || "", "aria-label": field });
+      input.addEventListener("input", () => { row[field] = input.value; save(TRACKER_KEY, state.tracker); });
+      return input;
+    }
+    function renderTracker() {
+      const root = document.getElementById("trackerContent"); root.replaceChildren();
+      if (!state.tracker.length) { root.append(el("div", { class: "empty" }, "Todavía no hay postulaciones. Agrega una vacante desde el Radar o crea una fila manual.")); return; }
+      const wrap = el("div", { class: "table-wrap" }); const table = el("table");
+      const head = el("thead"); const hr = el("tr");
+      ["Empresa", "Cargo", "Link", "Fecha aplicación", "Estado", "Próxima acción", "Notas", ""].forEach((name) => hr.append(el("th", {}, name))); head.append(hr); table.append(head);
+      const body = el("tbody");
+      state.tracker.forEach((row) => {
+        const tr = el("tr");
+        const companyCell = el("td"); companyCell.append(trackerInput(row, "company"));
+        const titleCell = el("td"); titleCell.append(trackerInput(row, "title"));
+        const linkCell = el("td"); linkCell.append(trackerInput(row, "link", "url"));
+        if (row.link) linkCell.append(el("a", { href: row.link, target: "_blank", rel: "noopener noreferrer" }, "Abrir ↗"));
+        const dateCell = el("td"); dateCell.append(trackerInput(row, "appliedDate", "date"));
+        const statusCell = el("td"); const select = el("select", { "aria-label": "Estado" });
+        STATUSES.forEach((status) => select.append(el("option", { value: status }, status))); select.value = STATUSES.includes(row.status) ? row.status : "Por aplicar";
+        select.addEventListener("change", () => { row.status = select.value; save(TRACKER_KEY, state.tracker); }); statusCell.append(select);
+        const actionCell = el("td"); actionCell.append(trackerInput(row, "nextAction"));
+        const notesCell = el("td"); const notes = el("textarea", { "aria-label": "Notas" }); notes.value = row.notes || ""; notes.addEventListener("input", () => { row.notes = notes.value; save(TRACKER_KEY, state.tracker); }); notesCell.append(notes);
+        const deleteCell = el("td"); deleteCell.append(el("button", { class: "button danger small", type: "button", onclick: () => deleteTrackerRow(row.id) }, "Borrar"));
+        tr.append(companyCell, titleCell, linkCell, dateCell, statusCell, actionCell, notesCell, deleteCell); body.append(tr);
+      });
+      table.append(body); wrap.append(table); root.append(wrap);
+    }
+    function deleteTrackerRow(id) {
+      if (!confirm("¿Borrar esta fila del tracker?")) return;
+      state.tracker = state.tracker.filter((row) => row.id !== id); save(TRACKER_KEY, state.tracker); renderTracker();
+    }
+    document.getElementById("addManual").addEventListener("click", () => { state.tracker.unshift(blankRow()); save(TRACKER_KEY, state.tracker); renderTracker(); });
+
+    const CSV_FIELDS = [["id", "id"], ["sourceId", "sourceId"], ["empresa", "company"], ["cargo", "title"], ["link", "link"], ["fechaAplicacion", "appliedDate"], ["estado", "status"], ["proximaAccion", "nextAction"], ["notas", "notes"]];
+    function csvEscape(value) { const text = String(value ?? ""); return /[",\r\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text; }
+    function exportCsv() {
+      const lines = [CSV_FIELDS.map(([header]) => header).join(","), ...state.tracker.map((row) => CSV_FIELDS.map(([, field]) => csvEscape(row[field])).join(","))];
+      download(`radar-tracker-${today()}.csv`, `\ufeff${lines.join("\r\n")}`, "text/csv;charset=utf-8");
+    }
+    function parseCsv(text) {
+      text = text.replace(/^\ufeff/, ""); const rows = []; let row = []; let field = ""; let quoted = false;
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        if (quoted) { if (char === '"' && text[i + 1] === '"') { field += '"'; i++; } else if (char === '"') quoted = false; else field += char; }
+        else if (char === '"') quoted = true;
+        else if (char === ",") { row.push(field); field = ""; }
+        else if (char === "\n") { row.push(field.replace(/\r$/, "")); rows.push(row); row = []; field = ""; }
+        else field += char;
+      }
+      if (quoted) throw new Error("CSV con comillas sin cerrar");
+      if (field || row.length) { row.push(field.replace(/\r$/, "")); rows.push(row); }
+      return rows;
+    }
+    async function importCsv(file) {
+      const rows = parseCsv(await file.text()); if (!rows.length) throw new Error("CSV vacío");
+      const headers = rows.shift(); const indexes = Object.fromEntries(headers.map((header, index) => [header, index]));
+      for (const [header] of CSV_FIELDS) if (!(header in indexes)) throw new Error(`Falta la columna ${header}`);
+      const imported = rows.filter((values) => values.some(Boolean)).map((values) => Object.fromEntries(CSV_FIELDS.map(([header, field]) => [field, values[indexes[header]] ?? ""])));
+      imported.forEach((row) => { row.id ||= uid(); row.status = STATUSES.includes(row.status) ? row.status : "Por aplicar"; });
+      if (state.tracker.length && !confirm("La importación reemplazará el tracker actual. ¿Continuar?")) return;
+      state.tracker = imported; save(TRACKER_KEY, state.tracker); renderTracker(); toast(`${imported.length} filas importadas.`);
+    }
+    function download(name, content, type) { const url = URL.createObjectURL(new Blob([content], { type })); const link = el("a", { href: url, download: name }); document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
+    document.getElementById("exportCsv").addEventListener("click", exportCsv);
+    document.getElementById("importCsv").addEventListener("change", async (event) => { const file = event.target.files[0]; if (!file) return; try { await importCsv(file); } catch (error) { alert(`No se pudo importar: ${error.message}`); } event.target.value = ""; });
+    document.getElementById("backupJson").addEventListener("click", () => download(`radar-tracker-${today()}.json`, JSON.stringify({ version: 1, exportedAt: new Date().toISOString(), tracker: state.tracker }, null, 2), "application/json"));
+    document.getElementById("restoreJson").addEventListener("change", async (event) => { const file = event.target.files[0]; if (!file) return; try { const data = JSON.parse(await file.text()); if (!Array.isArray(data.tracker)) throw new Error("El backup no contiene un tracker válido"); if (state.tracker.length && !confirm("La restauración reemplazará el tracker actual. ¿Continuar?")) return; state.tracker = data.tracker.map((row) => ({ ...blankRow(), ...row, id: row.id || uid() })); save(TRACKER_KEY, state.tracker); renderTracker(); toast("Backup restaurado."); } catch (error) { alert(`No se pudo restaurar: ${error.message}`); } finally { event.target.value = ""; } });
+
+    const profileFields = [
+      ["name", "Nombre", "text", false], ["email", "Email", "email", false], ["phone", "Teléfono", "tel", false], ["city", "Ciudad", "text", false],
+      ["linkedin", "LinkedIn", "url", false], ["salary", "Aspiración salarial", "text", false], ["availability", "Disponibilidad", "text", false],
+      ["answersEs", "Respuestas estándar — español", "textarea", true], ["answersEn", "Respuestas estándar — inglés", "textarea", true]
+    ];
+    function renderProfile() {
+      const root = document.getElementById("profileFields"); root.replaceChildren();
+      for (const [key, label, type, wide] of profileFields) {
+        const field = el("div", { class: `field${wide ? " wide" : ""}` }); const labelNode = el("label", {}, label);
+        const input = type === "textarea" ? el("textarea", { id: `profile-${key}` }) : el("input", { id: `profile-${key}`, type }); input.value = state.profile[key] || "";
+        input.addEventListener("input", () => { state.profile[key] = input.value; save(PROFILE_KEY, state.profile); }); labelNode.append(input);
+        const copy = el("button", { class: "button secondary small", type: "button", onclick: async () => { try { await navigator.clipboard.writeText(input.value); toast(`${label} copiado.`); } catch { input.select(); document.execCommand("copy"); toast(`${label} copiado.`); } } }, "Copiar");
+        field.append(labelNode, copy); root.append(field);
+      }
+    }
+
+    async function initialize() {
+      renderTracker(); renderProfile();
+      const [jobsResult, companiesResult, reportResult] = await Promise.allSettled([fetchData("jobs.json"), fetchData("companies.json"), fetchData("scan-report.json")]);
+      if (jobsResult.status === "fulfilled") { state.jobs = Array.isArray(jobsResult.value.jobs) ? jobsResult.value.jobs : []; state.generatedAt = jobsResult.value.generatedAt; }
+      if (companiesResult.status === "fulfilled") state.companies = Array.isArray(companiesResult.value) ? companiesResult.value : [];
+      if (reportResult.status === "fulfilled") state.report = Array.isArray(reportResult.value) ? reportResult.value : [];
+      renderSummary(); renderCompanyFilter(); renderJobs(); renderCompanies();
+    }
+    initialize();
+  })();
+  </script>
+</body>
+</html>

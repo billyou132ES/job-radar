@@ -1,0 +1,200 @@
+[
+  {
+    "name": "3M",
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 1
+  },
+  {
+    "name": "4flow",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Abbott",
+    "status": "ok",
+    "colombiaPostings": 15,
+    "matches": 1
+  },
+  {
+    "name": "BD",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Carrier",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Caterpillar",
+    "status": "ok",
+    "colombiaPostings": 2,
+    "matches": 0
+  },
+  {
+    "name": "CHEP / Brambles",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Clorox",
+    "status": "ok",
+    "colombiaPostings": 2,
+    "matches": 0
+  },
+  {
+    "name": "Cushman & Wakefield",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Diageo",
+    "status": "ok",
+    "colombiaPostings": 2,
+    "matches": 2
+  },
+  {
+    "name": "Elanco",
+    "status": "ok",
+    "colombiaPostings": 2,
+    "matches": 1
+  },
+  {
+    "name": "FedEx",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Ferring",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Fresenius Medical Care",
+    "status": "ok",
+    "colombiaPostings": 6,
+    "matches": 0
+  },
+  {
+    "name": "Galderma",
+    "status": "ok",
+    "colombiaPostings": 9,
+    "matches": 3
+  },
+  {
+    "name": "General Motors",
+    "status": "ok",
+    "colombiaPostings": 3,
+    "matches": 0
+  },
+  {
+    "name": "HP",
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 1
+  },
+  {
+    "name": "HPE",
+    "status": "ok",
+    "colombiaPostings": 4,
+    "matches": 0
+  },
+  {
+    "name": "Intel",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Kimberly-Clark",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Kraft Heinz",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Mango",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Mars",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Moderna",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Mondelēz International",
+    "status": "ok",
+    "colombiaPostings": 9,
+    "matches": 1
+  },
+  {
+    "name": "Motorola Solutions",
+    "status": "ok",
+    "colombiaPostings": 2,
+    "matches": 1
+  },
+  {
+    "name": "Pfizer",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Samsung",
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 0
+  },
+  {
+    "name": "Sanofi",
+    "status": "ok",
+    "colombiaPostings": 12,
+    "matches": 1
+  },
+  {
+    "name": "Stryker",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  },
+  {
+    "name": "Unilever",
+    "status": "ok",
+    "colombiaPostings": 4,
+    "matches": 0
+  },
+  {
+    "name": "Zoetis",
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
+  }
+]

@@ -1,0 +1,1360 @@
+[
+  {
+    "name": "3M",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "3m.wd1.myworkdayjobs.com",
+      "tenant": "3m",
+      "site": "Search"
+    },
+    "careersUrl": "https://3m.wd1.myworkdayjobs.com/Search",
+    "searchUrl": "https://3m.wd1.myworkdayjobs.com/Search?q=marketing"
+  },
+  {
+    "name": "4flow",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "4flow.wd3.myworkdayjobs.com",
+      "tenant": "4flow",
+      "site": "4flow"
+    },
+    "careersUrl": "https://4flow.wd3.myworkdayjobs.com/4flow",
+    "searchUrl": "https://4flow.wd3.myworkdayjobs.com/4flow?q=marketing"
+  },
+  {
+    "name": "AB InBev",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.ab-inbev.com/careers/job-search.html",
+    "searchUrl": ""
+  },
+  {
+    "name": "ABB",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.abb/global/en/search-results",
+    "searchUrl": "https://careers.abb/global/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "Abbott",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "abbott.wd5.myworkdayjobs.com",
+      "tenant": "abbott",
+      "site": "abbottcareers"
+    },
+    "careersUrl": "https://abbott.wd5.myworkdayjobs.com/abbottcareers",
+    "searchUrl": "https://abbott.wd5.myworkdayjobs.com/abbottcareers?q=marketing"
+  },
+  {
+    "name": "AbbVie",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.abbvie.com/abbvie/jobs",
+    "searchUrl": "https://careers.abbvie.com/abbvie/jobs?keywords=marketing"
+  },
+  {
+    "name": "Accenture",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.accenture.com/us-en/careers/jobsearch",
+    "searchUrl": "https://www.accenture.com/us-en/careers/jobsearch?jk=marketing&sb=1&pg=1"
+  },
+  {
+    "name": "adidas",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.adidas-group.com/jobs",
+    "searchUrl": "https://careers.adidas-group.com/jobs?keywords=marketing&locale=en"
+  },
+  {
+    "name": "Amgen",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.amgen.com/career-search/",
+    "searchUrl": "https://careers.amgen.com/career-search/?keyword=marketing"
+  },
+  {
+    "name": "Apellis",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://apellis.com/careers/open-positions/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Apple",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.apple.com/en-us/search",
+    "searchUrl": "https://jobs.apple.com/en-us/search?search=marketing"
+  },
+  {
+    "name": "ASML",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.asml.com/en/careers/find-your-job",
+    "searchUrl": "https://www.asml.com/en/careers/find-your-job?query=marketing"
+  },
+  {
+    "name": "B. Braun",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.career-bbraun.com/globaljobmarket/index.html",
+    "searchUrl": ""
+  },
+  {
+    "name": "Bacardi",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.bacardilimited.com/en_US/jobs/SearchJobs",
+    "searchUrl": ""
+  },
+  {
+    "name": "Bain & Company",
+    "ats": "icims",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://csscareers-bain.icims.com/jobs/intro",
+    "searchUrl": ""
+  },
+  {
+    "name": "Baker Hughes",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.bakerhughes.com/global/en",
+    "searchUrl": "https://careers.bakerhughes.com/global/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "BAT",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.bat.com/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Bavaria",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.bavaria.co/talento",
+    "searchUrl": ""
+  },
+  {
+    "name": "Baxter",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.baxter.com/",
+    "searchUrl": "https://jobs.baxter.com/search-jobs?keywords=marketing"
+  },
+  {
+    "name": "Bayer",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://career.bayer.com/en/career",
+    "searchUrl": ""
+  },
+  {
+    "name": "BD",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "bdx.wd1.myworkdayjobs.com",
+      "tenant": "bdx",
+      "site": "EXTERNAL_CAREER_SITE_USA"
+    },
+    "careersUrl": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA",
+    "searchUrl": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA?q=marketing"
+  },
+  {
+    "name": "Beiersdorf",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.beiersdorf.com/career/application/job-search",
+    "searchUrl": ""
+  },
+  {
+    "name": "Biogen",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.biogen.com/careers/careers-search.html",
+    "searchUrl": "https://www.biogen.com/careers/careers-search.html?searchKey=marketing"
+  },
+  {
+    "name": "Bosch",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.bosch.de/en/career/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Boston Scientific",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.bostonscientific.com/search",
+    "searchUrl": "https://jobs.bostonscientific.com/search?q=marketing&locationsearch=Colombia"
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "bristolmyerssquibb.wd5.myworkdayjobs.com",
+      "tenant": "bristolmyerssquibb",
+      "site": "BMS"
+    },
+    "careersUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS",
+    "searchUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS?q=marketing"
+  },
+  {
+    "name": "Campari Group",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.camparigroup.com/search/",
+    "searchUrl": "https://careers.camparigroup.com/search/?q=marketing&locationsearch=Colombia"
+  },
+  {
+    "name": "Capgemini",
+    "ats": "taleo",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://capgemini.taleo.net/careersection/1/jobsearch.ftl",
+    "searchUrl": ""
+  },
+  {
+    "name": "Cargill",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.cargill.com/search-jobs/Colombia/23251/2/3686110/4/-73x25/50/2",
+    "searchUrl": ""
+  },
+  {
+    "name": "Carrier",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "carrier.wd5.myworkdayjobs.com",
+      "tenant": "carrier",
+      "site": "jobs"
+    },
+    "careersUrl": "https://carrier.wd5.myworkdayjobs.com/jobs",
+    "searchUrl": "https://carrier.wd5.myworkdayjobs.com/jobs?q=marketing"
+  },
+  {
+    "name": "Caterpillar",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "cat.wd5.myworkdayjobs.com",
+      "tenant": "cat",
+      "site": "CaterpillarCareers"
+    },
+    "careersUrl": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers",
+    "searchUrl": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers?q=marketing"
+  },
+  {
+    "name": "CEMEX",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.cemex.com/",
+    "searchUrl": ""
+  },
+  {
+    "name": "CHEP / Brambles",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "brambles.wd5.myworkdayjobs.com",
+      "tenant": "brambles",
+      "site": "Brambles_Careers"
+    },
+    "careersUrl": "https://brambles.wd5.myworkdayjobs.com/Brambles_Careers",
+    "searchUrl": "https://brambles.wd5.myworkdayjobs.com/Brambles_Careers?q=marketing"
+  },
+  {
+    "name": "Cisco",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.cisco.com/jobs/Home",
+    "searchUrl": "https://jobs.cisco.com/jobs/SearchJobs/marketing"
+  },
+  {
+    "name": "Clorox",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "wd1.myworkdaysite.com",
+      "tenant": "clorox",
+      "site": "Clorox"
+    },
+    "careersUrl": "https://wd1.myworkdaysite.com/recruiting/clorox/Clorox",
+    "searchUrl": "https://wd1.myworkdaysite.com/recruiting/clorox/Clorox?q=marketing"
+  },
+  {
+    "name": "Coca-Cola",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.coca-colacompany.com/",
+    "searchUrl": "https://careers.coca-colacompany.com/search-results?keywords=marketing"
+  },
+  {
+    "name": "Colgate-Palmolive",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.colgate.com/search/",
+    "searchUrl": "https://jobs.colgate.com/search/?q=marketing&locationsearch=Colombia"
+  },
+  {
+    "name": "CONA Services",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.cokeonena.com/united/search/",
+    "searchUrl": "https://careers.cokeonena.com/united/search/?q=marketing"
+  },
+  {
+    "name": "Conagra Brands",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.conagrabrands.com/us/en",
+    "searchUrl": "https://careers.conagrabrands.com/us/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "ConvaTec",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.convatec.com/global/gb/search-results",
+    "searchUrl": "https://careers.convatec.com/global/gb/search-results?keywords=marketing"
+  },
+  {
+    "name": "Cushman & Wakefield",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "cw.wd1.myworkdayjobs.com",
+      "tenant": "cw",
+      "site": "External"
+    },
+    "careersUrl": "https://cw.wd1.myworkdayjobs.com/External",
+    "searchUrl": "https://cw.wd1.myworkdayjobs.com/External?q=marketing"
+  },
+  {
+    "name": "Danone",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.danone.com/en-global/jobs.html",
+    "searchUrl": ""
+  },
+  {
+    "name": "Dell",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://empleos.dell.com/",
+    "searchUrl": "https://empleos.dell.com/search-jobs?keywords=marketing"
+  },
+  {
+    "name": "Deloitte",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careersatdeloitte.com/vacancies",
+    "searchUrl": ""
+  },
+  {
+    "name": "DHL",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.dhl.com/amer/es",
+    "searchUrl": ""
+  },
+  {
+    "name": "Diageo",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "diageo.wd3.myworkdayjobs.com",
+      "tenant": "diageo",
+      "site": "Diageo_Careers"
+    },
+    "careersUrl": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers",
+    "searchUrl": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers?q=marketing"
+  },
+  {
+    "name": "Dior",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.dior.com/carrieres/index.html",
+    "searchUrl": ""
+  },
+  {
+    "name": "DuPont",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.dupont.com/us/en/search-results",
+    "searchUrl": "https://careers.dupont.com/us/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "Dyson",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.dyson.com/en-gb/search-results/",
+    "searchUrl": "https://careers.dyson.com/en-gb/search-results/?q=marketing"
+  },
+  {
+    "name": "Eaton",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://eaton.eightfold.ai/careers",
+    "searchUrl": ""
+  },
+  {
+    "name": "Elanco",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "elanco.wd5.myworkdayjobs.com",
+      "tenant": "elanco",
+      "site": "External_Career"
+    },
+    "careersUrl": "https://elanco.wd5.myworkdayjobs.com/External_Career",
+    "searchUrl": "https://elanco.wd5.myworkdayjobs.com/External_Career?q=marketing"
+  },
+  {
+    "name": "Electrolux",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://career.electroluxgroup.com/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Estée Lauder Companies",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.elcompanies.com/estee-lauder-companies/jobs",
+    "searchUrl": "https://jobs.elcompanies.com/estee-lauder-companies/jobs?keywords=marketing"
+  },
+  {
+    "name": "Exemplis",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.exemplis.com/search",
+    "searchUrl": ""
+  },
+  {
+    "name": "ExxonMobil",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.exxonmobil.com/search/",
+    "searchUrl": "https://jobs.exxonmobil.com/search/?q=marketing&locationsearch=Colombia"
+  },
+  {
+    "name": "EY",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://eygbl.referrals.selectminds.com/experienced-opportunities/jobs/search/100508599",
+    "searchUrl": ""
+  },
+  {
+    "name": "FedEx",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "fedex.wd1.myworkdayjobs.com",
+      "tenant": "fedex",
+      "site": "FXE-LAC_External_Career_Site"
+    },
+    "careersUrl": "https://fedex.wd1.myworkdayjobs.com/FXE-LAC_External_Career_Site",
+    "searchUrl": "https://fedex.wd1.myworkdayjobs.com/FXE-LAC_External_Career_Site?q=marketing"
+  },
+  {
+    "name": "Ferring",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "ferring.wd3.myworkdayjobs.com",
+      "tenant": "ferring",
+      "site": "Ferring"
+    },
+    "careersUrl": "https://ferring.wd3.myworkdayjobs.com/Ferring",
+    "searchUrl": "https://ferring.wd3.myworkdayjobs.com/Ferring?q=marketing"
+  },
+  {
+    "name": "Fortive",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.fortive.com/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Fresenius Medical Care",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "freseniusmedicalcare.wd3.myworkdayjobs.com",
+      "tenant": "freseniusmedicalcare",
+      "site": "fme"
+    },
+    "careersUrl": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme",
+    "searchUrl": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme?q=marketing"
+  },
+  {
+    "name": "Galderma",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "galderma.wd3.myworkdayjobs.com",
+      "tenant": "galderma",
+      "site": "External"
+    },
+    "careersUrl": "https://galderma.wd3.myworkdayjobs.com/External",
+    "searchUrl": "https://galderma.wd3.myworkdayjobs.com/External?q=marketing"
+  },
+  {
+    "name": "General Electric",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.gecareers.com/global/en/search-results",
+    "searchUrl": "https://jobs.gecareers.com/global/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "General Mills",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.generalmills.com/careers/",
+    "searchUrl": "https://careers.generalmills.com/careers/?query=marketing"
+  },
+  {
+    "name": "General Motors",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "generalmotors.wd5.myworkdayjobs.com",
+      "tenant": "generalmotors",
+      "site": "Careers_GM"
+    },
+    "careersUrl": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM",
+    "searchUrl": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM?q=marketing"
+  },
+  {
+    "name": "Genpact",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.genpact.com/careers/job-search",
+    "searchUrl": "https://www.genpact.com/careers/job-search?keyword=marketing"
+  },
+  {
+    "name": "Google",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.google.com/about/careers/applications/jobs/results/",
+    "searchUrl": "https://www.google.com/about/careers/applications/jobs/results/?q=marketing"
+  },
+  {
+    "name": "Grifols",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobsearch.grifols.com/go/ALLJOBS/4212301/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Gucci",
+    "ats": "workday",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://kering.wd3.myworkdayjobs.com/Gucci",
+    "searchUrl": "https://kering.wd3.myworkdayjobs.com/Gucci?q=marketing",
+    "note": "API cxs devuelve 403 (permission denied) — solo Lanzador"
+  },
+  {
+    "name": "Halliburton",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.halliburton.com/search/",
+    "searchUrl": "https://jobs.halliburton.com/search/?q=marketing"
+  },
+  {
+    "name": "HARIBO",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.haribo.com/de-de/karriere/jobboerse",
+    "searchUrl": ""
+  },
+  {
+    "name": "Hasbro",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.hasbro.com/go/View-All-Jobs/8208800/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Hays",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.hays.co.uk/job-search",
+    "searchUrl": ""
+  },
+  {
+    "name": "HCLTech",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.hcltech.com/careers/Careers-in-APMEA",
+    "searchUrl": ""
+  },
+  {
+    "name": "Henkel",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.henkel.com/careers/jobs-and-application",
+    "searchUrl": ""
+  },
+  {
+    "name": "Hermès",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://talents.hermes.com/en/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Hologic",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions",
+    "searchUrl": ""
+  },
+  {
+    "name": "Honeywell",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.honeywell.com/us/en/search-results",
+    "searchUrl": "https://careers.honeywell.com/us/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "HP",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "hp.wd5.myworkdayjobs.com",
+      "tenant": "hp",
+      "site": "ExternalCareerSite"
+    },
+    "careersUrl": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
+    "searchUrl": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite?q=marketing"
+  },
+  {
+    "name": "HPE",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "hpe.wd5.myworkdayjobs.com",
+      "tenant": "hpe",
+      "site": "Jobsathpe"
+    },
+    "careersUrl": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe",
+    "searchUrl": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe?q=marketing"
+  },
+  {
+    "name": "Huawei",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://career.huawei.com/reccampportal/portal5/social-recruitment.html#jobList",
+    "searchUrl": ""
+  },
+  {
+    "name": "Hugo Boss",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.hugoboss.com/global/en/search-results",
+    "searchUrl": "https://careers.hugoboss.com/global/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "IBM",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.ibm.com/co-es/employment/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Infosys",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.infosys.com/careers/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Intel",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "intel.wd1.myworkdayjobs.com",
+      "tenant": "intel",
+      "site": "External"
+    },
+    "careersUrl": "https://intel.wd1.myworkdayjobs.com/External",
+    "searchUrl": "https://intel.wd1.myworkdayjobs.com/External?q=marketing"
+  },
+  {
+    "name": "Intuitive Surgical",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.intuitive.com/en/jobs/",
+    "searchUrl": "https://careers.intuitive.com/en/jobs/?search=marketing"
+  },
+  {
+    "name": "Ipsen",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.ipsen.com/us/en",
+    "searchUrl": "https://careers.ipsen.com/us/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "Johnson & Johnson",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.jnj.com/en/jobs/",
+    "searchUrl": "https://jobs.jnj.com/en/jobs/?search=marketing"
+  },
+  {
+    "name": "Kellanova / Kellogg",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.kellogg.com/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Kimberly-Clark",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "kimberlyclark.wd1.myworkdayjobs.com",
+      "tenant": "kimberlyclark",
+      "site": "GLOBAL"
+    },
+    "careersUrl": "https://kimberlyclark.wd1.myworkdayjobs.com/GLOBAL",
+    "searchUrl": "https://kimberlyclark.wd1.myworkdayjobs.com/GLOBAL?q=marketing"
+  },
+  {
+    "name": "KPMG",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.elempleo.com/sitios-empresariales/colombia/kpmg/oferta_sitio.asp",
+    "searchUrl": ""
+  },
+  {
+    "name": "Kraft Heinz",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "heinz.wd1.myworkdayjobs.com",
+      "tenant": "heinz",
+      "site": "KraftHeinz_Careers"
+    },
+    "careersUrl": "https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers",
+    "searchUrl": "https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers?q=marketing"
+  },
+  {
+    "name": "Kuehne+Nagel",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.kuehne-nagel.com/global/en/search-results",
+    "searchUrl": "https://jobs.kuehne-nagel.com/global/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "L'Oréal",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.loreal.com/en_US/jobs/SearchJobs/",
+    "searchUrl": ""
+  },
+  {
+    "name": "LEGO",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.lego.com/en-gb/careers/search",
+    "searchUrl": "https://www.lego.com/en-gb/careers/search?keyword=marketing"
+  },
+  {
+    "name": "Lenovo",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.lenovo.com/en_US/careers/SearchJobs",
+    "searchUrl": ""
+  },
+  {
+    "name": "LG",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.lg.com/co/acerca-de-lg/carreras",
+    "searchUrl": ""
+  },
+  {
+    "name": "Louis Vuitton",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.louisvuitton.com/en/search-page",
+    "searchUrl": ""
+  },
+  {
+    "name": "LVMH",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.lvmh.fr/talents/nous-rejoindre/nos-offres/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Maersk",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.maersk.com/careers/vacancies",
+    "searchUrl": ""
+  },
+  {
+    "name": "Mango",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "mango.wd3.myworkdayjobs.com",
+      "tenant": "mango",
+      "site": "Mango_Work_Your_Passion"
+    },
+    "careersUrl": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion",
+    "searchUrl": "https://mango.wd3.myworkdayjobs.com/Mango_Work_Your_Passion?q=marketing"
+  },
+  {
+    "name": "Mars",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "mars.wd3.myworkdayjobs.com",
+      "tenant": "mars",
+      "site": "External"
+    },
+    "careersUrl": "https://mars.wd3.myworkdayjobs.com/External",
+    "searchUrl": "https://mars.wd3.myworkdayjobs.com/External?q=marketing"
+  },
+  {
+    "name": "Mattel",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.mattel.com/search-jobs",
+    "searchUrl": "https://jobs.mattel.com/search-jobs?keywords=marketing"
+  },
+  {
+    "name": "McAfee",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.mcafee.com/",
+    "searchUrl": "https://careers.mcafee.com/search-jobs?keywords=marketing"
+  },
+  {
+    "name": "McKinsey & Company",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.mckinsey.com/careers/search-jobs",
+    "searchUrl": ""
+  },
+  {
+    "name": "Medtronic",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.medtronic.com/careers",
+    "searchUrl": "https://jobs.medtronic.com/careers?query=marketing"
+  },
+  {
+    "name": "Merck KGaA",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.merckgroup.com/en/careers/job-search.html",
+    "searchUrl": ""
+  },
+  {
+    "name": "Microsoft",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.careers.microsoft.com/global/en/search",
+    "searchUrl": "https://jobs.careers.microsoft.com/global/en/search?q=marketing"
+  },
+  {
+    "name": "Moderna",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "modernatx.wd1.myworkdayjobs.com",
+      "tenant": "modernatx",
+      "site": "M_tx"
+    },
+    "careersUrl": "https://modernatx.wd1.myworkdayjobs.com/M_tx",
+    "searchUrl": "https://modernatx.wd1.myworkdayjobs.com/M_tx?q=marketing"
+  },
+  {
+    "name": "Mondelēz International",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "wd3.myworkdaysite.com",
+      "tenant": "mdlz",
+      "site": "External"
+    },
+    "careersUrl": "https://wd3.myworkdaysite.com/recruiting/mdlz/External",
+    "searchUrl": "https://wd3.myworkdaysite.com/recruiting/mdlz/External?q=marketing"
+  },
+  {
+    "name": "Motorola Solutions",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "motorolasolutions.wd5.myworkdayjobs.com",
+      "tenant": "motorolasolutions",
+      "site": "Careers"
+    },
+    "careersUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers",
+    "searchUrl": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers?q=marketing"
+  },
+  {
+    "name": "Nestlé",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.nestle.com/jobs/search-jobs",
+    "searchUrl": "https://www.nestle.com/jobs/search-jobs?keyword=marketing&country=Colombia"
+  },
+  {
+    "name": "Newell Brands",
+    "ats": "taleo",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://nwl.taleo.net/careersection/2/jobsearch.ftl?lang=en",
+    "searchUrl": ""
+  },
+  {
+    "name": "Nielsen",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.nielsen.com/careers/",
+    "searchUrl": ""
+  },
+  {
+    "name": "NielsenIQ",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://nielseniq.com/global/en/jobs/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Nike",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.nike.com/",
+    "searchUrl": "https://jobs.nike.com/?jobSearch=true&jsKeywords=marketing"
+  },
+  {
+    "name": "Nomad Foods",
+    "ats": "icims",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers-nomadfoods.icims.com/jobs/search?ss=1",
+    "searchUrl": ""
+  },
+  {
+    "name": "Novartis",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.novartis.com/careers/career-search",
+    "searchUrl": ""
+  },
+  {
+    "name": "Novo Nordisk",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.novonordisk.com/careers/find-a-job.html",
+    "searchUrl": ""
+  },
+  {
+    "name": "Oracle",
+    "ats": "taleo",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://oracle.taleo.net/careersection/2/jobsearch.ftl?lang=en",
+    "searchUrl": ""
+  },
+  {
+    "name": "P&G",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.pgcareers.com/",
+    "searchUrl": "https://www.pgcareers.com/search-jobs?keywords=marketing&location=Colombia"
+  },
+  {
+    "name": "Parker Wellbore",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://parkerwellbore.com/careers/",
+    "searchUrl": ""
+  },
+  {
+    "name": "PepsiCo",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.pepsicojobs.com/main/jobs",
+    "searchUrl": "https://www.pepsicojobs.com/main/jobs?keywords=marketing"
+  },
+  {
+    "name": "Pfizer",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "pfizer.wd1.myworkdayjobs.com",
+      "tenant": "pfizer",
+      "site": "PfizerCareers"
+    },
+    "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers",
+    "searchUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers?q=marketing"
+  },
+  {
+    "name": "Philips",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.careers.philips.com/global/en/search-results",
+    "searchUrl": "https://www.careers.philips.com/global/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "PUMA",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://about.puma.com/en/careers/job-openings",
+    "searchUrl": ""
+  },
+  {
+    "name": "PwC",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.pwc.com/gx/en/careers/experienced-job-search.html",
+    "searchUrl": ""
+  },
+  {
+    "name": "Red Bull",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.redbull.com/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Revlon",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://recruiting.ultipro.com/REV1000/JobBoard/417e03eb-b841-41ad-4a9a-8258fd438487/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Richemont",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.richemont.com/search/",
+    "searchUrl": "https://jobs.richemont.com/search/?q=marketing"
+  },
+  {
+    "name": "Roche",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.roche.com/careers/jobs/jobsearch.htm",
+    "searchUrl": "https://www.roche.com/careers/jobs/jobsearch.htm?keywords=marketing&countryCodes=CO"
+  },
+  {
+    "name": "ROSEN Group",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.rosen-group.com/Jobs",
+    "searchUrl": ""
+  },
+  {
+    "name": "Samsung",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "sec.wd3.myworkdayjobs.com",
+      "tenant": "sec",
+      "site": "Samsung_Careers"
+    },
+    "careersUrl": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers",
+    "searchUrl": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers?q=marketing"
+  },
+  {
+    "name": "Sanofi",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "sanofi.wd3.myworkdayjobs.com",
+      "tenant": "sanofi",
+      "site": "SanofiCareers"
+    },
+    "careersUrl": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers",
+    "searchUrl": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers?q=marketing"
+  },
+  {
+    "name": "SC Johnson",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.scjohnson.com/",
+    "searchUrl": "https://jobs.scjohnson.com/search-jobs?keywords=marketing"
+  },
+  {
+    "name": "Schneider Electric",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.se.com/global/jobs",
+    "searchUrl": "https://careers.se.com/global/jobs?keywords=marketing&lang=en-US"
+  },
+  {
+    "name": "Shell",
+    "ats": "successfactors",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.shell.com/search-jobs",
+    "searchUrl": "https://jobs.shell.com/search-jobs?keywords=marketing"
+  },
+  {
+    "name": "Siemens",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.siemens.com/jobs",
+    "searchUrl": "https://jobs.siemens.com/jobs?keywords=marketing"
+  },
+  {
+    "name": "Sisley",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://sisley.jobs.net/fr-FR/search",
+    "searchUrl": "https://sisley.jobs.net/fr-FR/search?keywords=marketing"
+  },
+  {
+    "name": "Stanley Black & Decker",
+    "ats": "brassring",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=165&siteid=20#home",
+    "searchUrl": ""
+  },
+  {
+    "name": "Starbucks",
+    "ats": "taleo",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://starbucks.taleo.net/careersection/1000222/jobsearch.ftl?lang=en_GB",
+    "searchUrl": ""
+  },
+  {
+    "name": "Stryker",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "stryker.wd1.myworkdayjobs.com",
+      "tenant": "stryker",
+      "site": "StrykerCareers"
+    },
+    "careersUrl": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers",
+    "searchUrl": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers?q=marketing"
+  },
+  {
+    "name": "Takeda",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.takeda.com/search-jobs",
+    "searchUrl": "https://jobs.takeda.com/search-jobs?keywords=marketing"
+  },
+  {
+    "name": "Thermo Fisher Scientific",
+    "ats": "phenom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.thermofisher.com/global/en/search-results",
+    "searchUrl": "https://jobs.thermofisher.com/global/en/search-results?keywords=marketing"
+  },
+  {
+    "name": "Uber",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.uber.com/co/en/careers/list/",
+    "searchUrl": "https://www.uber.com/co/en/careers/list/?query=marketing"
+  },
+  {
+    "name": "Unilever",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "unilever.wd3.myworkdayjobs.com",
+      "tenant": "unilever",
+      "site": "Unilever_Experienced_Professionals"
+    },
+    "careersUrl": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals",
+    "searchUrl": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals?q=marketing"
+  },
+  {
+    "name": "Upfield",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://www.upfield.com/careers/join-upfield#job-search_e=0",
+    "searchUrl": ""
+  },
+  {
+    "name": "UPS",
+    "ats": "taleo",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://ups.taleo.net/careersection/colombia_external/jobsearch.ftl?lang=en",
+    "searchUrl": ""
+  },
+  {
+    "name": "Versuni",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.versuni.com/search",
+    "searchUrl": ""
+  },
+  {
+    "name": "Walmart",
+    "ats": "workday",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.walmart.com/",
+    "searchUrl": "",
+    "note": "Tenant Workday migrado (HTTP 303); sin operación en Colombia"
+  },
+  {
+    "name": "Whirlpool",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://jobs.whirlpool.com/careers",
+    "searchUrl": ""
+  },
+  {
+    "name": "Wipro",
+    "ats": "custom",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://careers.wipro.com/",
+    "searchUrl": ""
+  },
+  {
+    "name": "Worley",
+    "ats": "taleo",
+    "tier": 2,
+    "workday": null,
+    "careersUrl": "https://worleyparsons.taleo.net/careersection/ext/jobsearch.ftl",
+    "searchUrl": ""
+  },
+  {
+    "name": "Zoetis",
+    "ats": "workday",
+    "tier": 1,
+    "workday": {
+      "host": "zoetis.wd5.myworkdayjobs.com",
+      "tenant": "zoetis",
+      "site": "zoetis"
+    },
+    "careersUrl": "https://zoetis.wd5.myworkdayjobs.com/zoetis",
+    "searchUrl": "https://zoetis.wd5.myworkdayjobs.com/zoetis?q=marketing"
+  }
+]
