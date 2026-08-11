@@ -74,8 +74,8 @@
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 1
+    "colombiaPostings": 1,
+    "matches": 0
   },
   {
     "name": "FedEx",
@@ -92,19 +92,19 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 6,
-    "matches": 0
+    "colombiaPostings": 7,
+    "matches": 1
   },
   {
     "name": "Galderma",
     "status": "ok",
-    "colombiaPostings": 9,
-    "matches": 3
+    "colombiaPostings": 8,
+    "matches": 2
   },
   {
     "name": "General Motors",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 4,
     "matches": 0
   },
   {
@@ -116,7 +116,7 @@
   {
     "name": "HPE",
     "status": "ok",
-    "colombiaPostings": 4,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 16,
+    "colombiaPostings": 15,
     "matches": 0
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 12,
+    "colombiaPostings": 14,
     "matches": 1
   },
   {
