@@ -14,13 +14,13 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 15,
+    "colombiaPostings": 17,
     "matches": 1
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -92,14 +92,14 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 6,
     "matches": 1
   },
   {
     "name": "Galderma",
     "status": "ok",
-    "colombiaPostings": 8,
-    "matches": 2
+    "colombiaPostings": 7,
+    "matches": 1
   },
   {
     "name": "General Motors",
@@ -110,7 +110,7 @@
   {
     "name": "HP",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 1
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 15,
+    "colombiaPostings": 16,
     "matches": 0
   },
   {
@@ -164,8 +164,8 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 9,
-    "matches": 1
+    "colombiaPostings": 8,
+    "matches": 2
   },
   {
     "name": "Motorola Solutions",
@@ -200,7 +200,7 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 4,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
