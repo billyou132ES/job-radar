@@ -14,7 +14,7 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 17,
+    "colombiaPostings": 14,
     "matches": 1
   },
   {
@@ -68,8 +68,8 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 2
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "Elanco",
@@ -152,8 +152,8 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 16,
-    "matches": 0
+    "colombiaPostings": 17,
+    "matches": 1
   },
   {
     "name": "Moderna",
@@ -164,19 +164,19 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 8,
-    "matches": 2
+    "colombiaPostings": 9,
+    "matches": 3
   },
   {
     "name": "Motorola Solutions",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 1
+    "colombiaPostings": 1,
+    "matches": 0
   },
   {
     "name": "Pfizer",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 14,
+    "colombiaPostings": 13,
     "matches": 1
   },
   {
