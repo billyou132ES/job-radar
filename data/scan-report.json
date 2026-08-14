@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 14,
-    "matches": 1
+    "matches": 2
   },
   {
     "name": "Bavaria",
@@ -68,7 +68,7 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 1
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 17,
+    "colombiaPostings": 13,
     "matches": 1
   },
   {
@@ -176,20 +176,20 @@
   {
     "name": "Pfizer",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
     "name": "Samsung",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 13,
-    "matches": 1
+    "colombiaPostings": 11,
+    "matches": 0
   },
   {
     "name": "Stryker",

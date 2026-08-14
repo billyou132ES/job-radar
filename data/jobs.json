@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-08-13T17:01:17.428Z",
+  "generatedAt": "2026-08-14T17:01:16.691Z",
   "jobs": [
+    {
+      "id": "abbott:31150006",
+      "company": "Abbott",
+      "title": "Sr. Brand Manager",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/Sr-Brand-Manager_31150006",
+      "location": "Colombia - Bogota",
+      "postedOn": "Posted Today",
+      "level": "mid",
+      "firstSeen": "2026-08-14"
+    },
     {
       "id": "medtronic:R73099",
       "company": "Medtronic",
       "title": "Sr Product  Marketing Manager.",
       "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Bogot-Bogota-Colombia/Sr-Product--Marketing-Manager_R73099-1",
       "location": "2 Locations",
-      "postedOn": "Posted Today",
+      "postedOn": "Posted Yesterday",
       "level": "mid",
       "firstSeen": "2026-08-13"
     },
@@ -17,7 +27,7 @@
       "title": "Sales Digitalization Analyst",
       "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Cali-Colombia/Sales-Digitalization-Analyst_R-174602",
       "location": "Cali, Colombia",
-      "postedOn": "Posted Today",
+      "postedOn": "Posted Yesterday",
       "level": "junior",
       "firstSeen": "2026-08-13"
     },
@@ -27,7 +37,7 @@
       "title": "Trade Marketing Manager Colombia",
       "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Bogota-Colombia/Trade-Marketing-Manager-Colombia_R-173974-1",
       "location": "Bogota, Colombia",
-      "postedOn": "Posted Yesterday",
+      "postedOn": "Posted 2 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-12"
     },
@@ -37,7 +47,7 @@
       "title": "Analista de Inteligencia Comercial",
       "url": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Bogot-CUN-CO/Analista-de-Inteligencia-Comercial_R0264466",
       "location": "Bogotá, CUN, CO",
-      "postedOn": "Posted 2 Days Ago",
+      "postedOn": "Posted 3 Days Ago",
       "level": "junior",
       "firstSeen": "2026-08-11"
     },
@@ -47,7 +57,7 @@
       "title": "Ejecutivo de Ventas",
       "url": "https://3m.wd1.myworkdayjobs.com/Search/job/CO-BOGOTA-REMOTE/Ejecutivo-de-Ventas_R01167859-1",
       "location": "CO, BOGOTA, REMOTE",
-      "postedOn": "Posted 29 Days Ago",
+      "postedOn": "Posted 30 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-10"
     },
@@ -57,7 +67,7 @@
       "title": "BRAND MANAGER",
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/BRAND-MANAGER_31156973",
       "location": "Colombia - Bogota",
-      "postedOn": "Posted 8 Days Ago",
+      "postedOn": "Posted 9 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-10"
     },
@@ -67,7 +77,7 @@
       "title": "Off Trade Activator",
       "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Bogota-Colombia/Off-Trade-Activator_JR1128116",
       "location": "Bogota, Colombia",
-      "postedOn": "Posted 7 Days Ago",
+      "postedOn": "Posted 8 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-10"
     },
@@ -97,18 +107,8 @@
       "title": "Shopper Marketing Manager Caribbean",
       "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Dominican-Republic-Remote/Shopper-Marketing-Manager-Caribbean_R-174231",
       "location": "3 Locations",
-      "postedOn": "Posted 9 Days Ago",
+      "postedOn": "Posted 10 Days Ago",
       "level": "mid",
-      "firstSeen": "2026-08-10"
-    },
-    {
-      "id": "sanofi:R2866235",
-      "company": "Sanofi",
-      "title": "RSV Brand Lead",
-      "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Ciudad-de-Mxico/RSV-Brand-Lead_R2866235",
-      "location": "2 Locations",
-      "postedOn": "Posted Yesterday",
-      "level": "senior",
       "firstSeen": "2026-08-10"
     }
   ]
