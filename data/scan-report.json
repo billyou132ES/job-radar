@@ -14,7 +14,7 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 14,
+    "colombiaPostings": 16,
     "matches": 1
   },
   {
@@ -43,8 +43,8 @@
   },
   {
     "name": "Caterpillar",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -68,8 +68,8 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 1
+    "colombiaPostings": 1,
+    "matches": 0
   },
   {
     "name": "Elanco",
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 5,
     "matches": 1
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 13,
+    "colombiaPostings": 20,
     "matches": 2
   },
   {
