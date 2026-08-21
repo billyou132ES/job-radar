@@ -1,9 +1,9 @@
 [
   {
     "name": "3M",
-    "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 1
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "4flow",
@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 16,
-    "matches": 1
+    "matches": 0
   },
   {
     "name": "Bavaria",
@@ -43,8 +43,8 @@
   },
   {
     "name": "Caterpillar",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -74,8 +74,8 @@
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 0
+    "colombiaPostings": 2,
+    "matches": 1
   },
   {
     "name": "FedEx",
@@ -110,7 +110,7 @@
   {
     "name": "HP",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 1
   },
   {
@@ -152,25 +152,26 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 20,
+    "colombiaPostings": 18,
     "matches": 2
   },
   {
     "name": "Moderna",
-    "status": "no-colombia-facet",
+    "status": "error",
     "colombiaPostings": 0,
-    "matches": 0
+    "matches": 0,
+    "error": "Timeout después de 20 s"
   },
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 8,
     "matches": 3
   },
   {
     "name": "Motorola Solutions",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -188,7 +189,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 10,
     "matches": 0
   },
   {
