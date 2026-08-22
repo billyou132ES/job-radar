@@ -20,7 +20,7 @@
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
@@ -109,9 +109,9 @@
   },
   {
     "name": "HP",
-    "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 1
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "HPE",
@@ -152,15 +152,14 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 18,
+    "colombiaPostings": 19,
     "matches": 2
   },
   {
     "name": "Moderna",
-    "status": "error",
+    "status": "no-colombia-facet",
     "colombiaPostings": 0,
-    "matches": 0,
-    "error": "Timeout después de 20 s"
+    "matches": 0
   },
   {
     "name": "Mondelēz International",
@@ -177,7 +176,7 @@
   {
     "name": "Pfizer",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
@@ -201,8 +200,8 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 0
+    "colombiaPostings": 3,
+    "matches": 1
   },
   {
     "name": "Zoetis",
