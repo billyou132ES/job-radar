@@ -1,13 +1,33 @@
 {
-  "generatedAt": "2026-08-24T17:01:21.634Z",
+  "generatedAt": "2026-08-25T17:01:20.391Z",
   "jobs": [
+    {
+      "id": "abinbev:30102950",
+      "company": "Bavaria",
+      "title": "JEFE COMERCIAL",
+      "url": "https://wd1.myworkdaysite.com/en-US/recruiting/abinbev/COL/job/COL---CD---San-Gil/JEFE-COMERCIAL_30102950",
+      "location": "COL - CD - San Gil",
+      "postedOn": "Posted Today",
+      "level": "mid",
+      "firstSeen": "2026-08-25"
+    },
+    {
+      "id": "diageo:JR1128840",
+      "company": "Diageo",
+      "title": "Marketing Effectiveness Regional Manager",
+      "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Bogota-Colombia/Marketing-Effectiveness-Regional-Manager_JR1128840",
+      "location": "Bogota, Colombia",
+      "postedOn": "Posted Yesterday",
+      "level": "mid",
+      "firstSeen": "2026-08-25"
+    },
     {
       "id": "unilever:R-1186495",
       "company": "Unilever",
       "title": "Savoury Marketing Specialist Andina",
       "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals/job/Bogota-Office-Paralelo-108/Savoury-Marketing-Specialist-Andina_R-1186495",
       "location": "Bogota Office (Paralelo 108)",
-      "postedOn": "Posted 3 Days Ago",
+      "postedOn": "Posted 4 Days Ago",
       "level": "junior",
       "firstSeen": "2026-08-22"
     },
@@ -17,59 +37,9 @@
       "title": "Marketing Senior Associate – Pet Health",
       "url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/CO---Bogota/Marketing-Senior-Associate---Pet-Health_R0026792-1",
       "location": "CO - Bogota",
-      "postedOn": "Posted 4 Days Ago",
+      "postedOn": "Posted 5 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-21"
-    },
-    {
-      "id": "galderma:JR020289",
-      "company": "Galderma",
-      "title": "Trade Marketing Specialist",
-      "url": "https://galderma.wd3.myworkdayjobs.com/External/job/Bogot/Trade-Marketing-Specialist_JR020289",
-      "location": "Bogotá",
-      "postedOn": "Posted 6 Days Ago",
-      "level": "junior",
-      "firstSeen": "2026-08-19"
-    },
-    {
-      "id": "generalmotors:JR-202617443",
-      "company": "General Motors",
-      "title": "Product Marketing Coordinator Posventa",
-      "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Bogota-Cundinamarca-Colombia/Product-Marketing-Coordinator_JR-202617443",
-      "location": "Bogota, Cundinamarca, Colombia",
-      "postedOn": "Posted 5 Days Ago",
-      "level": "junior",
-      "firstSeen": "2026-08-19"
-    },
-    {
-      "id": "medtronic:R74504",
-      "company": "Medtronic",
-      "title": "Marketing Director CELA",
-      "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Bogot-Bogota-Colombia/Marketing-Director-CELA_R74504",
-      "location": "3 Locations",
-      "postedOn": "Posted 5 Days Ago",
-      "level": "senior",
-      "firstSeen": "2026-08-19"
-    },
-    {
-      "id": "medtronic:R73099",
-      "company": "Medtronic",
-      "title": "Sr Product  Marketing Manager.",
-      "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Bogot-Bogota-Colombia/Sr-Product--Marketing-Manager_R73099-1",
-      "location": "2 Locations",
-      "postedOn": "Posted 11 Days Ago",
-      "level": "mid",
-      "firstSeen": "2026-08-13"
-    },
-    {
-      "id": "mdlz:R-174602",
-      "company": "Mondelēz International",
-      "title": "Sales Digitalization Analyst",
-      "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Cali-Colombia/Sales-Digitalization-Analyst_R-174602",
-      "location": "Cali, Colombia",
-      "postedOn": "Posted 11 Days Ago",
-      "level": "junior",
-      "firstSeen": "2026-08-13"
     },
     {
       "id": "mdlz:R-173974",
@@ -77,19 +47,9 @@
       "title": "Trade Marketing Manager Colombia",
       "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Bogota-Colombia/Trade-Marketing-Manager-Colombia_R-173974-1",
       "location": "Bogota, Colombia",
-      "postedOn": "Posted 12 Days Ago",
+      "postedOn": "Posted 13 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-12"
-    },
-    {
-      "id": "freseniusmedicalcare:R0264466",
-      "company": "Fresenius Medical Care",
-      "title": "Analista de Inteligencia Comercial",
-      "url": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Bogot-CUN-CO/Analista-de-Inteligencia-Comercial_R0264466",
-      "location": "Bogotá, CUN, CO",
-      "postedOn": "Posted 13 Days Ago",
-      "level": "junior",
-      "firstSeen": "2026-08-11"
     },
     {
       "id": "galderma:JR014625",
@@ -107,7 +67,7 @@
       "title": "Shopper Marketing Manager Caribbean",
       "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Dominican-Republic-Remote/Shopper-Marketing-Manager-Caribbean_R-174231",
       "location": "3 Locations",
-      "postedOn": "Posted 20 Days Ago",
+      "postedOn": "Posted 21 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-10"
     }
