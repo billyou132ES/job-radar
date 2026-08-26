@@ -14,14 +14,14 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 20,
+    "colombiaPostings": 17,
     "matches": 0
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 5,
-    "matches": 1
+    "colombiaPostings": 2,
+    "matches": 0
   },
   {
     "name": "BD",
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 8,
+    "colombiaPostings": 9,
     "matches": 2
   },
   {
@@ -176,7 +176,7 @@
   {
     "name": "Pfizer",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -201,7 +201,7 @@
     "name": "Unilever",
     "status": "ok",
     "colombiaPostings": 4,
-    "matches": 1
+    "matches": 2
   },
   {
     "name": "Zoetis",
