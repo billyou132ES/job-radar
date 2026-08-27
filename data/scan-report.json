@@ -14,7 +14,7 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 17,
+    "colombiaPostings": 16,
     "matches": 0
   },
   {
@@ -68,14 +68,14 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 1
   },
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 3,
-    "matches": 1
+    "colombiaPostings": 4,
+    "matches": 2
   },
   {
     "name": "FedEx",
@@ -104,7 +104,7 @@
   {
     "name": "General Motors",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -116,7 +116,7 @@
   {
     "name": "HPE",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 4,
     "matches": 0
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 10,
     "matches": 2
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 8,
+    "colombiaPostings": 11,
     "matches": 0
   },
   {
@@ -200,7 +200,7 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 4,
+    "colombiaPostings": 3,
     "matches": 2
   },
   {
