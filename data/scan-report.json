@@ -14,7 +14,7 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 16,
+    "colombiaPostings": 18,
     "matches": 0
   },
   {
@@ -44,7 +44,7 @@
   {
     "name": "Caterpillar",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -74,13 +74,13 @@
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 4,
+    "colombiaPostings": 3,
     "matches": 2
   },
   {
     "name": "FedEx",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 4,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
