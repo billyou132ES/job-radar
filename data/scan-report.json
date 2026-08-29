@@ -14,7 +14,7 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 18,
+    "colombiaPostings": 19,
     "matches": 0
   },
   {
@@ -127,8 +127,8 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 11,
+    "colombiaPostings": 10,
     "matches": 0
   },
   {
