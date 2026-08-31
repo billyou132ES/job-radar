@@ -14,7 +14,7 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 19,
+    "colombiaPostings": 18,
     "matches": 0
   },
   {
@@ -31,8 +31,8 @@
   },
   {
     "name": "Bristol Myers Squibb",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -67,9 +67,9 @@
   },
   {
     "name": "Diageo",
-    "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 1
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "Elanco",
@@ -104,7 +104,7 @@
   {
     "name": "General Motors",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 10,
+    "colombiaPostings": 8,
     "matches": 0
   },
   {
