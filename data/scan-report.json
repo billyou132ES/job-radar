@@ -20,7 +20,7 @@
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 10,
+    "colombiaPostings": 11,
     "matches": 2
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 8,
+    "colombiaPostings": 9,
     "matches": 0
   },
   {
@@ -200,8 +200,8 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 1
+    "colombiaPostings": 4,
+    "matches": 2
   },
   {
     "name": "Zoetis",
