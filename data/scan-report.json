@@ -14,13 +14,13 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 18,
+    "colombiaPostings": 20,
     "matches": 0
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -31,8 +31,8 @@
   },
   {
     "name": "Bristol Myers Squibb",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -74,13 +74,13 @@
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 4,
     "matches": 2
   },
   {
     "name": "FedEx",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
@@ -116,7 +116,7 @@
   {
     "name": "HPE",
     "status": "ok",
-    "colombiaPostings": 4,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 11,
+    "colombiaPostings": 10,
     "matches": 2
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 10,
     "matches": 0
   },
   {
