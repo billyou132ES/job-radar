@@ -1,15 +1,25 @@
 {
-  "generatedAt": "2026-09-02T17:01:18.621Z",
+  "generatedAt": "2026-09-03T17:01:17.948Z",
   "jobs": [
     {
-      "id": "unilever:R-1187084",
-      "company": "Unilever",
-      "title": "UFS Trade Marketing Analyst Colombia",
-      "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals/job/Bogota-Office-Paralelo-108/UFS-Trade-Marketing-Analyst-Colombia_R-1187084-1",
-      "location": "Bogota Office (Paralelo 108)",
-      "postedOn": "Posted 7 Days Ago",
+      "id": "abbott:31160860",
+      "company": "Abbott",
+      "title": "BRAND SPECIALIST",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/BRAND-SPECIALIST_31160860",
+      "location": "Colombia - Bogota",
+      "postedOn": "Posted Yesterday",
       "level": "junior",
-      "firstSeen": "2026-08-26"
+      "firstSeen": "2026-09-03"
+    },
+    {
+      "id": "hp:3159320",
+      "company": "HP",
+      "title": "Digital Transformation Intern",
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bogota-Distrito-Capital-de-Bogot-Colombia/Digital-Transformation-Intern_3159320-1",
+      "location": "Bogota, Distrito Capital de Bogotá, Colombia",
+      "postedOn": "Posted Yesterday",
+      "level": "junior",
+      "firstSeen": "2026-09-03"
     },
     {
       "id": "unilever:R-1186495",
@@ -17,7 +27,7 @@
       "title": "Savoury Marketing Specialist Andina",
       "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals/job/Bogota-Office-Paralelo-108/Savoury-Marketing-Specialist-Andina_R-1186495",
       "location": "Bogota Office (Paralelo 108)",
-      "postedOn": "Posted Yesterday",
+      "postedOn": "Posted 2 Days Ago",
       "level": "junior",
       "firstSeen": "2026-08-22"
     },
@@ -27,7 +37,7 @@
       "title": "Marketing Senior Associate – Pet Health",
       "url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/CO---Bogota/Marketing-Senior-Associate---Pet-Health_R0026792-1",
       "location": "CO - Bogota",
-      "postedOn": "Posted 5 Days Ago",
+      "postedOn": "Posted 6 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-21"
     },
@@ -37,9 +47,19 @@
       "title": "Trade Marketing Manager Colombia",
       "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Bogota-Colombia/Trade-Marketing-Manager-Colombia_R-173974-1",
       "location": "Bogota, Colombia",
-      "postedOn": "Posted 21 Days Ago",
+      "postedOn": "Posted 22 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-12"
+    },
+    {
+      "id": "abbott:31156973",
+      "company": "Abbott",
+      "title": "BRAND MANAGER",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/BRAND-MANAGER_31156973",
+      "location": "Colombia - Bogota",
+      "postedOn": "Posted Today",
+      "level": "mid",
+      "firstSeen": "2026-08-10"
     },
     {
       "id": "elanco:R0026576",
@@ -47,7 +67,7 @@
       "title": "Generador de Demanda - Mascotas - Bogotá",
       "url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/CO---Bogota/Generador-de-Demanda---Mascotas---Bogot_R0026576-1",
       "location": "CO - Bogota",
-      "postedOn": "Posted 5 Days Ago",
+      "postedOn": "Posted 6 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-10"
     },
@@ -67,7 +87,7 @@
       "title": "Shopper Marketing Manager Caribbean",
       "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Dominican-Republic-Remote/Shopper-Marketing-Manager-Caribbean_R-174231",
       "location": "3 Locations",
-      "postedOn": "Posted 29 Days Ago",
+      "postedOn": "Posted 30 Days Ago",
       "level": "mid",
       "firstSeen": "2026-08-10"
     }

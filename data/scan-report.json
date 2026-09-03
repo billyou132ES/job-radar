@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 20,
-    "matches": 0
+    "matches": 2
   },
   {
     "name": "Bavaria",
@@ -56,7 +56,7 @@
   {
     "name": "Clorox",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -103,15 +103,15 @@
   },
   {
     "name": "General Motors",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
     "name": "HP",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
-    "matches": 0
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "HPE",
@@ -175,8 +175,8 @@
   },
   {
     "name": "Pfizer",
-    "status": "ok",
-    "colombiaPostings": 2,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 10,
+    "colombiaPostings": 8,
     "matches": 0
   },
   {
@@ -200,8 +200,8 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 4,
-    "matches": 2
+    "colombiaPostings": 2,
+    "matches": 1
   },
   {
     "name": "Zoetis",
