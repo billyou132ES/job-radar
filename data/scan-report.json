@@ -103,8 +103,8 @@
   },
   {
     "name": "General Motors",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
