@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 20,
-    "matches": 2
+    "matches": 4
   },
   {
     "name": "Bavaria",
@@ -43,8 +43,8 @@
   },
   {
     "name": "Caterpillar",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -127,8 +127,8 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 8,
     "matches": 1
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 8,
+    "colombiaPostings": 7,
     "matches": 0
   },
   {
@@ -200,7 +200,7 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 1
   },
   {
