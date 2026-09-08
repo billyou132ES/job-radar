@@ -15,13 +15,13 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 20,
-    "matches": 4
+    "matches": 0
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 0
+    "colombiaPostings": 6,
+    "matches": 3
   },
   {
     "name": "BD",
@@ -67,15 +67,15 @@
   },
   {
     "name": "Diageo",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 5,
-    "matches": 2
+    "colombiaPostings": 3,
+    "matches": 1
   },
   {
     "name": "FedEx",
@@ -98,20 +98,20 @@
   {
     "name": "Galderma",
     "status": "ok",
-    "colombiaPostings": 6,
+    "colombiaPostings": 7,
     "matches": 1
   },
   {
     "name": "General Motors",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
     "name": "HP",
-    "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 1
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "HPE",
@@ -127,9 +127,9 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
-    "matches": 0
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "Kraft Heinz",
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 6,
     "matches": 0
   },
   {
@@ -200,8 +200,8 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 1
+    "colombiaPostings": 1,
+    "matches": 0
   },
   {
     "name": "Zoetis",
