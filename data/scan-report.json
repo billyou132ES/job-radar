@@ -20,8 +20,8 @@
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 6,
-    "matches": 3
+    "colombiaPostings": 2,
+    "matches": 0
   },
   {
     "name": "BD",
@@ -68,7 +68,7 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -79,8 +79,8 @@
   },
   {
     "name": "FedEx",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -98,7 +98,7 @@
   {
     "name": "Galderma",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 8,
     "matches": 1
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 8,
+    "colombiaPostings": 9,
     "matches": 1
   },
   {
@@ -175,9 +175,9 @@
   },
   {
     "name": "Pfizer",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
-    "matches": 0
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "Samsung",
