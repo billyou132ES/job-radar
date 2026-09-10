@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 20,
-    "matches": 0
+    "matches": 2
   },
   {
     "name": "Bavaria",
@@ -56,8 +56,8 @@
   {
     "name": "Clorox",
     "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 0
+    "colombiaPostings": 2,
+    "matches": 1
   },
   {
     "name": "Cushman & Wakefield",
@@ -74,8 +74,8 @@
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 3,
-    "matches": 1
+    "colombiaPostings": 5,
+    "matches": 3
   },
   {
     "name": "FedEx",
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 10,
     "matches": 1
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 6,
+    "colombiaPostings": 9,
     "matches": 0
   },
   {
