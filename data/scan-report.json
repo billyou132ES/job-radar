@@ -14,13 +14,13 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 19,
+    "colombiaPostings": 18,
     "matches": 1
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -74,7 +74,7 @@
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 5,
+    "colombiaPostings": 4,
     "matches": 3
   },
   {
@@ -98,13 +98,13 @@
   {
     "name": "Galderma",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 6,
     "matches": 1
   },
   {
     "name": "General Motors",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -116,7 +116,7 @@
   {
     "name": "HPE",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 4,
     "matches": 0
   },
   {
@@ -128,8 +128,8 @@
   {
     "name": "Kimberly-Clark",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 2
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "Kraft Heinz",
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 7,
     "matches": 0
   },
   {
@@ -200,7 +200,7 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
