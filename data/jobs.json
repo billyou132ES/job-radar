@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-09-18T17:01:21.019Z",
+  "generatedAt": "2026-09-19T17:01:10.732Z",
   "jobs": [
+    {
+      "id": "medtronic:R77416",
+      "company": "Medtronic",
+      "title": "Sr Marketing Specialist – ENT Latin America",
+      "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Bogot-Bogota-Colombia/Sr-Marketing-Specialist---ENT-Latin-America_R77416-1",
+      "location": "3 Locations",
+      "postedOn": "Posted Yesterday",
+      "level": "junior",
+      "firstSeen": "2026-09-19"
+    },
     {
       "id": "abbott:31161577",
       "company": "Abbott",
       "title": "BRAND MANAGER",
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/BRAND-MANAGER_31161577",
       "location": "Colombia - Bogota",
-      "postedOn": "Posted 10 Days Ago",
+      "postedOn": "Posted 11 Days Ago",
       "level": "mid",
       "firstSeen": "2026-09-13"
     },
@@ -17,7 +27,7 @@
       "title": "Ejecutivo de Ventas",
       "url": "https://kimberlyclark.wd1.myworkdayjobs.com/GLOBAL/job/No-KC-Site-Colombia---Valledupar/Ejecutivo-de-Ventas_887417",
       "location": "No KC Site Colombia - Valledupar",
-      "postedOn": "Posted 7 Days Ago",
+      "postedOn": "Posted 8 Days Ago",
       "level": "mid",
       "firstSeen": "2026-09-11"
     },
@@ -27,7 +37,7 @@
       "title": "Regional Brand Manager CCAM",
       "url": "https://wd1.myworkdaysite.com/recruiting/clorox/Clorox/job/Bogota-Colombia/Brand-Manager-CCAM_JR23378",
       "location": "Bogota, Colombia",
-      "postedOn": "Posted 4 Days Ago",
+      "postedOn": "Posted 5 Days Ago",
       "level": "mid",
       "firstSeen": "2026-09-10"
     },
@@ -37,18 +47,8 @@
       "title": "Gerente de Marketing",
       "url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/CO---Bogota/Gerente-de-Marketing_R0027059-1",
       "location": "CO - Bogota",
-      "postedOn": "Posted 8 Days Ago",
-      "level": "senior",
-      "firstSeen": "2026-09-10"
-    },
-    {
-      "id": "elanco:R0026224",
-      "company": "Elanco",
-      "title": "Senior Associate-Marketing",
-      "url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/CO---Bogota/Senior-Associate-Marketing_R0026224-1",
-      "location": "CO - Bogota",
       "postedOn": "Posted 9 Days Ago",
-      "level": "mid",
+      "level": "senior",
       "firstSeen": "2026-09-10"
     },
     {
@@ -57,7 +57,7 @@
       "title": "Aprendiz Profesional Marketing",
       "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Colombia---Bogota---Suba/Aprendiz-Profesional-Marketing_4963298",
       "location": "Colombia - Bogota - Suba",
-      "postedOn": "Posted 9 Days Ago",
+      "postedOn": "Posted 10 Days Ago",
       "level": "junior",
       "firstSeen": "2026-09-09"
     },
@@ -67,9 +67,29 @@
       "title": "SR BRAND MANAGER",
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/SR-BRAND-MANAGER_31161227",
       "location": "Colombia - Bogota",
+      "postedOn": "Posted 2 Days Ago",
+      "level": "mid",
+      "firstSeen": "2026-09-07"
+    },
+    {
+      "id": "abbott:31160933",
+      "company": "Abbott",
+      "title": "Brand Specilist",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/Brand-Specilist_31160933-1",
+      "location": "Colombia - Bogota",
       "postedOn": "Posted Yesterday",
       "level": "mid",
       "firstSeen": "2026-09-07"
+    },
+    {
+      "id": "abbott:31161117",
+      "company": "Abbott",
+      "title": "BRAND SPECIALIST",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/BRAND-SPECIALIST_31161117",
+      "location": "Colombia - Bogota",
+      "postedOn": "Posted Yesterday",
+      "level": "junior",
+      "firstSeen": "2026-09-04"
     },
     {
       "id": "mdlz:R-173974",
