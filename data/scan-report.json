@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 19,
-    "matches": 4
+    "matches": 3
   },
   {
     "name": "Bavaria",
@@ -103,8 +103,8 @@
   },
   {
     "name": "General Motors",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -116,7 +116,7 @@
   {
     "name": "HPE",
     "status": "ok",
-    "colombiaPostings": 6,
+    "colombiaPostings": 5,
     "matches": 0
   },
   {
