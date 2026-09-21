@@ -128,8 +128,8 @@
   {
     "name": "Kimberly-Clark",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 1
+    "colombiaPostings": 1,
+    "matches": 0
   },
   {
     "name": "Kraft Heinz",
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 19,
+    "colombiaPostings": 18,
     "matches": 1
   },
   {
@@ -164,20 +164,20 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 10,
+    "colombiaPostings": 9,
     "matches": 1
   },
   {
     "name": "Motorola Solutions",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
     "name": "Pfizer",
     "status": "ok",
-    "colombiaPostings": 3,
-    "matches": 1
+    "colombiaPostings": 4,
+    "matches": 2
   },
   {
     "name": "Samsung",
