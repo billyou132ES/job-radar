@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-09-22T17:01:23.122Z",
+  "generatedAt": "2026-09-23T17:01:26.088Z",
   "jobs": [
+    {
+      "id": "abinbev:30104085",
+      "company": "Bavaria",
+      "title": "JEFE COMERCIAL",
+      "url": "https://wd1.myworkdaysite.com/en-US/recruiting/abinbev/COL/job/COL---CD---Pasto/JEFE-COMERCIAL_30104085",
+      "location": "COL - CD - Pasto",
+      "postedOn": "Posted Today",
+      "level": "mid",
+      "firstSeen": "2026-09-23"
+    },
     {
       "id": "abbott:31162526",
       "company": "Abbott",
       "title": "Market Insights and Analytics Coordinator",
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Colombia---Bogota/Market-Insights-and-Analytics-Coordinator_31162526",
       "location": "Colombia - Bogota",
-      "postedOn": "Posted 4 Days Ago",
+      "postedOn": "Posted 5 Days Ago",
       "level": "junior",
       "firstSeen": "2026-09-22"
     },
@@ -17,19 +27,9 @@
       "title": "Aprendiz Profesional de Marketing",
       "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Colombia---Bogota---Suba/Aprendiz-Profesional-de-Marketing_4964266-1",
       "location": "Colombia - Bogota - Suba",
-      "postedOn": "Posted Yesterday",
+      "postedOn": "Posted 2 Days Ago",
       "level": "junior",
       "firstSeen": "2026-09-21"
-    },
-    {
-      "id": "medtronic:R77416",
-      "company": "Medtronic",
-      "title": "Sr Marketing Specialist – ENT Latin America",
-      "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Bogot-Bogota-Colombia/Sr-Marketing-Specialist---ENT-Latin-America_R77416-1",
-      "location": "3 Locations",
-      "postedOn": "Posted 4 Days Ago",
-      "level": "junior",
-      "firstSeen": "2026-09-19"
     },
     {
       "id": "clorox:JR23378",
@@ -37,7 +37,7 @@
       "title": "Regional Brand Manager CCAM",
       "url": "https://wd1.myworkdaysite.com/recruiting/clorox/Clorox/job/Bogota-Colombia/Brand-Manager-CCAM_JR23378",
       "location": "Bogota, Colombia",
-      "postedOn": "Posted 8 Days Ago",
+      "postedOn": "Posted 9 Days Ago",
       "level": "mid",
       "firstSeen": "2026-09-10"
     },
@@ -47,19 +47,9 @@
       "title": "Gerente de Marketing",
       "url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/CO---Bogota/Gerente-de-Marketing_R0027059-1",
       "location": "CO - Bogota",
-      "postedOn": "Posted 12 Days Ago",
+      "postedOn": "Posted 13 Days Ago",
       "level": "senior",
       "firstSeen": "2026-09-10"
-    },
-    {
-      "id": "pfizer:4963298",
-      "company": "Pfizer",
-      "title": "Aprendiz Profesional Marketing",
-      "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Colombia---Bogota---Suba/Aprendiz-Profesional-Marketing_4963298",
-      "location": "Colombia - Bogota - Suba",
-      "postedOn": "Posted 13 Days Ago",
-      "level": "junior",
-      "firstSeen": "2026-09-09"
     },
     {
       "id": "mdlz:R-173974",
