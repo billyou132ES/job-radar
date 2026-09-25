@@ -14,14 +14,14 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 20,
+    "colombiaPostings": 19,
     "matches": 0
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 3,
-    "matches": 1
+    "colombiaPostings": 2,
+    "matches": 0
   },
   {
     "name": "BD",
@@ -56,8 +56,8 @@
   {
     "name": "Clorox",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 1
+    "colombiaPostings": 3,
+    "matches": 2
   },
   {
     "name": "Cushman & Wakefield",
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 5,
+    "colombiaPostings": 6,
     "matches": 0
   },
   {
@@ -164,8 +164,8 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 12,
-    "matches": 1
+    "colombiaPostings": 13,
+    "matches": 2
   },
   {
     "name": "Motorola Solutions",
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 12,
+    "colombiaPostings": 9,
     "matches": 0
   },
   {

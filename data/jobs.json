@@ -1,15 +1,25 @@
 {
-  "generatedAt": "2026-09-24T17:01:21.835Z",
+  "generatedAt": "2026-09-25T17:01:26.117Z",
   "jobs": [
     {
-      "id": "abinbev:30102371",
-      "company": "Bavaria",
-      "title": "JEFE COMERCIAL KA",
-      "url": "https://wd1.myworkdaysite.com/en-US/recruiting/abinbev/COL/job/COL---Plant---Valle/JEFE-COMERCIAL-KA_30102371",
-      "location": "COL - Plant - Valle",
+      "id": "clorox:JR23410",
+      "company": "Clorox",
+      "title": "Assistant Brand Manager CCAM",
+      "url": "https://wd1.myworkdaysite.com/recruiting/clorox/Clorox/job/Bogota-Colombia/Assistant-Brand-Manager-CCAM_JR23410",
+      "location": "Bogota, Colombia",
+      "postedOn": "Posted Yesterday",
+      "level": "junior",
+      "firstSeen": "2026-09-25"
+    },
+    {
+      "id": "mdlz:R-178549",
+      "company": "Mondelēz International",
+      "title": "Club Social Junior Brand Manager",
+      "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Bogota-Colombia/Club-Social-Junior-Brand-Manager_R-178549",
+      "location": "2 Locations",
       "postedOn": "Posted Today",
-      "level": "mid",
-      "firstSeen": "2026-09-24"
+      "level": "junior",
+      "firstSeen": "2026-09-25"
     },
     {
       "id": "hp:3167568",
@@ -17,7 +27,7 @@
       "title": "Site Sales and Marketing Assistant",
       "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bogota-Distrito-Capital-de-Bogot-Colombia/Site-Sales-and-Marketing-Assistant_3167568-1",
       "location": "Bogota, Distrito Capital de Bogotá, Colombia",
-      "postedOn": "Posted Yesterday",
+      "postedOn": "Posted 2 Days Ago",
       "level": "junior",
       "firstSeen": "2026-09-24"
     },
@@ -27,7 +37,7 @@
       "title": "Aprendiz Profesional de Marketing",
       "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Colombia---Bogota---Suba/Aprendiz-Profesional-de-Marketing_4964266-1",
       "location": "Colombia - Bogota - Suba",
-      "postedOn": "Posted 3 Days Ago",
+      "postedOn": "Posted 4 Days Ago",
       "level": "junior",
       "firstSeen": "2026-09-21"
     },
@@ -37,7 +47,7 @@
       "title": "Regional Brand Manager CCAM",
       "url": "https://wd1.myworkdaysite.com/recruiting/clorox/Clorox/job/Bogota-Colombia/Brand-Manager-CCAM_JR23378",
       "location": "Bogota, Colombia",
-      "postedOn": "Posted 10 Days Ago",
+      "postedOn": "Posted 11 Days Ago",
       "level": "mid",
       "firstSeen": "2026-09-10"
     },
@@ -47,7 +57,7 @@
       "title": "Gerente de Marketing",
       "url": "https://elanco.wd5.myworkdayjobs.com/External_Career/job/CO---Bogota/Gerente-de-Marketing_R0027059-1",
       "location": "CO - Bogota",
-      "postedOn": "Posted 14 Days Ago",
+      "postedOn": "Posted 15 Days Ago",
       "level": "senior",
       "firstSeen": "2026-09-10"
     },
