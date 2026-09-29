@@ -14,13 +14,13 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 19,
+    "colombiaPostings": 20,
     "matches": 0
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -69,7 +69,7 @@
     "name": "Diageo",
     "status": "ok",
     "colombiaPostings": 1,
-    "matches": 0
+    "matches": 1
   },
   {
     "name": "Elanco",
@@ -127,8 +127,8 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -176,7 +176,7 @@
   {
     "name": "Pfizer",
     "status": "ok",
-    "colombiaPostings": 4,
+    "colombiaPostings": 5,
     "matches": 1
   },
   {
