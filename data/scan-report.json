@@ -14,14 +14,14 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 15,
-    "matches": 1
+    "colombiaPostings": 12,
+    "matches": 0
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 7,
-    "matches": 1
+    "colombiaPostings": 2,
+    "matches": 0
   },
   {
     "name": "BD",
@@ -73,9 +73,9 @@
   },
   {
     "name": "Elanco",
-    "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 1
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "FedEx",
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 5,
+    "colombiaPostings": 6,
     "matches": 0
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 13,
+    "colombiaPostings": 15,
     "matches": 1
   },
   {
@@ -175,10 +175,9 @@
   },
   {
     "name": "Pfizer",
-    "status": "error",
-    "colombiaPostings": 0,
-    "matches": 0,
-    "error": "HTTP 520 <none>"
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 0
   },
   {
     "name": "Samsung",
@@ -189,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 8,
     "matches": 0
   },
   {
