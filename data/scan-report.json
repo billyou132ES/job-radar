@@ -14,14 +14,14 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 12,
+    "colombiaPostings": 17,
     "matches": 0
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 0
+    "colombiaPostings": 3,
+    "matches": 1
   },
   {
     "name": "BD",
@@ -61,9 +61,10 @@
   },
   {
     "name": "Cushman & Wakefield",
-    "status": "no-colombia-facet",
+    "status": "error",
     "colombiaPostings": 0,
-    "matches": 0
+    "matches": 0,
+    "error": "fetch failed"
   },
   {
     "name": "Diageo",
@@ -92,7 +93,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 6,
+    "colombiaPostings": 7,
     "matches": 0
   },
   {
@@ -127,8 +128,8 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -164,7 +165,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 13,
+    "colombiaPostings": 16,
     "matches": 1
   },
   {
@@ -187,9 +188,10 @@
   },
   {
     "name": "Sanofi",
-    "status": "ok",
-    "colombiaPostings": 8,
-    "matches": 0
+    "status": "error",
+    "colombiaPostings": 0,
+    "matches": 0,
+    "error": "fetch failed"
   },
   {
     "name": "Stryker",
