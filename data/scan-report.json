@@ -152,8 +152,8 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 14,
-    "matches": 1
+    "colombiaPostings": 13,
+    "matches": 0
   },
   {
     "name": "Moderna",
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 8,
     "matches": 0
   },
   {
