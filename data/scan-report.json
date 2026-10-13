@@ -20,7 +20,7 @@
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
@@ -31,8 +31,8 @@
   },
   {
     "name": "Bristol Myers Squibb",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -55,9 +55,10 @@
   },
   {
     "name": "Clorox",
-    "status": "ok",
-    "colombiaPostings": 3,
-    "matches": 2
+    "status": "error",
+    "colombiaPostings": 0,
+    "matches": 0,
+    "error": "HTTP 502 Bad Gateway"
   },
   {
     "name": "Cushman & Wakefield",
@@ -92,7 +93,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 5,
+    "colombiaPostings": 6,
     "matches": 0
   },
   {
@@ -152,8 +153,8 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 11,
-    "matches": 0
+    "colombiaPostings": 14,
+    "matches": 1
   },
   {
     "name": "Moderna",
