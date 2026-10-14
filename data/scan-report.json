@@ -14,13 +14,13 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 11,
+    "colombiaPostings": 9,
     "matches": 0
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -55,10 +55,9 @@
   },
   {
     "name": "Clorox",
-    "status": "error",
-    "colombiaPostings": 0,
-    "matches": 0,
-    "error": "HTTP 502 Bad Gateway"
+    "status": "ok",
+    "colombiaPostings": 4,
+    "matches": 2
   },
   {
     "name": "Cushman & Wakefield",
@@ -69,13 +68,13 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 5,
-    "matches": 2
+    "colombiaPostings": 4,
+    "matches": 1
   },
   {
     "name": "Elanco",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -93,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 6,
+    "colombiaPostings": 7,
     "matches": 0
   },
   {
@@ -111,7 +110,7 @@
   {
     "name": "HP",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -153,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 14,
+    "colombiaPostings": 15,
     "matches": 1
   },
   {
