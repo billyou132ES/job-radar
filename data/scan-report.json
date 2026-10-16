@@ -31,8 +31,8 @@
   },
   {
     "name": "Bristol Myers Squibb",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 6,
+    "colombiaPostings": 5,
     "matches": 0
   },
   {
@@ -104,19 +104,19 @@
   {
     "name": "General Motors",
     "status": "ok",
-    "colombiaPostings": 4,
-    "matches": 1
+    "colombiaPostings": 5,
+    "matches": 2
   },
   {
     "name": "HP",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
     "name": "HPE",
     "status": "ok",
-    "colombiaPostings": 6,
+    "colombiaPostings": 8,
     "matches": 0
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 13,
+    "colombiaPostings": 14,
     "matches": 1
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 16,
+    "colombiaPostings": 15,
     "matches": 1
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 6,
     "matches": 0
   },
   {
@@ -200,8 +200,8 @@
   {
     "name": "Unilever",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 2
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "Zoetis",
