@@ -56,8 +56,8 @@
   {
     "name": "Clorox",
     "status": "ok",
-    "colombiaPostings": 4,
-    "matches": 2
+    "colombiaPostings": 3,
+    "matches": 1
   },
   {
     "name": "Cushman & Wakefield",
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 14,
+    "colombiaPostings": 15,
     "matches": 1
   },
   {
@@ -176,7 +176,7 @@
   {
     "name": "Pfizer",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -199,9 +199,9 @@
   },
   {
     "name": "Unilever",
-    "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 1
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "Zoetis",
