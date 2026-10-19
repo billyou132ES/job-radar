@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 11,
-    "matches": 0
+    "matches": 1
   },
   {
     "name": "Bavaria",
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 15,
+    "colombiaPostings": 16,
     "matches": 1
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 15,
+    "colombiaPostings": 13,
     "matches": 1
   },
   {
