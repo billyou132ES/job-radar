@@ -14,7 +14,7 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 15,
+    "colombiaPostings": 12,
     "matches": 0
   },
   {
@@ -32,7 +32,7 @@
   {
     "name": "Bristol Myers Squibb",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -57,7 +57,7 @@
     "name": "Clorox",
     "status": "ok",
     "colombiaPostings": 3,
-    "matches": 1
+    "matches": 2
   },
   {
     "name": "Cushman & Wakefield",
@@ -69,13 +69,13 @@
     "name": "Diageo",
     "status": "ok",
     "colombiaPostings": 7,
-    "matches": 1
+    "matches": 2
   },
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 2,
-    "matches": 1
+    "colombiaPostings": 1,
+    "matches": 0
   },
   {
     "name": "FedEx",
@@ -151,9 +151,10 @@
   },
   {
     "name": "Medtronic",
-    "status": "ok",
-    "colombiaPostings": 18,
-    "matches": 1
+    "status": "error",
+    "colombiaPostings": 0,
+    "matches": 0,
+    "error": "HTTP 502 Bad Gateway"
   },
   {
     "name": "Moderna",
@@ -164,7 +165,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 15,
+    "colombiaPostings": 17,
     "matches": 2
   },
   {
@@ -188,7 +189,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 10,
     "matches": 0
   },
   {
