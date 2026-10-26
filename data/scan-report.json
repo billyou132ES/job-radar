@@ -32,7 +32,7 @@
   {
     "name": "Bristol Myers Squibb",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 13,
+    "colombiaPostings": 17,
     "matches": 1
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 12,
+    "colombiaPostings": 14,
     "matches": 0
   },
   {
