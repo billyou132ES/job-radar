@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 13,
-    "matches": 1
+    "matches": 0
   },
   {
     "name": "Bavaria",
@@ -110,8 +110,8 @@
   {
     "name": "HP",
     "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 0
+    "colombiaPostings": 2,
+    "matches": 1
   },
   {
     "name": "HPE",
@@ -127,8 +127,8 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 17,
+    "colombiaPostings": 15,
     "matches": 1
   },
   {
@@ -181,14 +181,14 @@
   },
   {
     "name": "Samsung",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
-    "matches": 0
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 14,
+    "colombiaPostings": 16,
     "matches": 0
   },
   {
@@ -199,8 +199,8 @@
   },
   {
     "name": "Unilever",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
