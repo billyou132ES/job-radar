@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 18,
-    "matches": 0
+    "matches": 1
   },
   {
     "name": "Bavaria",
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 4,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
@@ -104,7 +104,7 @@
   {
     "name": "General Motors",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -152,8 +152,8 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 15,
-    "matches": 1
+    "colombiaPostings": 13,
+    "matches": 0
   },
   {
     "name": "Moderna",
