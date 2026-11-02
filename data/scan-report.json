@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 12,
+    "colombiaPostings": 11,
     "matches": 1
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 12,
+    "colombiaPostings": 11,
     "matches": 0
   },
   {
@@ -199,8 +199,8 @@
   },
   {
     "name": "Unilever",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
