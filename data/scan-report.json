@@ -14,13 +14,13 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 18,
+    "colombiaPostings": 16,
     "matches": 1
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 3,
     "matches": 0
   },
   {
@@ -68,7 +68,7 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 10,
+    "colombiaPostings": 9,
     "matches": 3
   },
   {
@@ -79,8 +79,8 @@
   },
   {
     "name": "FedEx",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -104,8 +104,8 @@
   {
     "name": "General Motors",
     "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 0
+    "colombiaPostings": 2,
+    "matches": 1
   },
   {
     "name": "HP",
@@ -127,8 +127,8 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -152,8 +152,8 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 12,
-    "matches": 0
+    "colombiaPostings": 15,
+    "matches": 1
   },
   {
     "name": "Moderna",
