@@ -14,13 +14,13 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 16,
+    "colombiaPostings": 19,
     "matches": 1
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -68,14 +68,14 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 8,
     "matches": 3
   },
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 3,
-    "matches": 0
+    "colombiaPostings": 4,
+    "matches": 1
   },
   {
     "name": "FedEx",
@@ -98,7 +98,7 @@
   {
     "name": "Galderma",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 6,
     "matches": 1
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 15,
+    "colombiaPostings": 13,
     "matches": 1
   },
   {
@@ -164,8 +164,8 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 11,
-    "matches": 1
+    "colombiaPostings": 12,
+    "matches": 2
   },
   {
     "name": "Motorola Solutions",
@@ -176,7 +176,7 @@
   {
     "name": "Pfizer",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 11,
+    "colombiaPostings": 8,
     "matches": 0
   },
   {
