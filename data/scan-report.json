@@ -61,15 +61,15 @@
   },
   {
     "name": "Cushman & Wakefield",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
+    "status": "ok",
+    "colombiaPostings": 1,
     "matches": 0
   },
   {
     "name": "Diageo",
     "status": "ok",
     "colombiaPostings": 6,
-    "matches": 2
+    "matches": 3
   },
   {
     "name": "Elanco",
@@ -127,9 +127,9 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "no-colombia-facet",
-    "colombiaPostings": 0,
-    "matches": 0
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "Kraft Heinz",
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 17,
+    "colombiaPostings": 19,
     "matches": 1
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 7,
     "matches": 0
   },
   {
