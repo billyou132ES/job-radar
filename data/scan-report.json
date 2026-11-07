@@ -14,7 +14,7 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 20,
+    "colombiaPostings": 19,
     "matches": 1
   },
   {
@@ -68,7 +68,7 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 6,
+    "colombiaPostings": 11,
     "matches": 3
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "Fresenius Medical Care",
     "status": "ok",
-    "colombiaPostings": 2,
+    "colombiaPostings": 4,
     "matches": 0
   },
   {
@@ -116,7 +116,7 @@
   {
     "name": "HPE",
     "status": "ok",
-    "colombiaPostings": 8,
+    "colombiaPostings": 9,
     "matches": 0
   },
   {
@@ -152,8 +152,8 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 19,
-    "matches": 1
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "Moderna",
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 12,
+    "colombiaPostings": 14,
     "matches": 2
   },
   {
