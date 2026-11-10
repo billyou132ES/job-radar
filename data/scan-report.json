@@ -15,7 +15,7 @@
     "name": "Abbott",
     "status": "ok",
     "colombiaPostings": 14,
-    "matches": 0
+    "matches": 1
   },
   {
     "name": "Bavaria",
@@ -68,7 +68,7 @@
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 9,
+    "colombiaPostings": 10,
     "matches": 3
   },
   {
@@ -79,8 +79,8 @@
   },
   {
     "name": "FedEx",
-    "status": "ok",
-    "colombiaPostings": 1,
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
     "matches": 0
   },
   {
@@ -98,14 +98,14 @@
   {
     "name": "Galderma",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 8,
     "matches": 1
   },
   {
     "name": "General Motors",
-    "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 1
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "HP",
@@ -127,9 +127,9 @@
   },
   {
     "name": "Kimberly-Clark",
-    "status": "ok",
-    "colombiaPostings": 1,
-    "matches": 1
+    "status": "no-colombia-facet",
+    "colombiaPostings": 0,
+    "matches": 0
   },
   {
     "name": "Kraft Heinz",
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 0,
+    "colombiaPostings": 19,
     "matches": 0
   },
   {
