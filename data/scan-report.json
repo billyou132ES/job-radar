@@ -14,13 +14,13 @@
   {
     "name": "Abbott",
     "status": "ok",
-    "colombiaPostings": 14,
+    "colombiaPostings": 13,
     "matches": 1
   },
   {
     "name": "Bavaria",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -32,7 +32,7 @@
   {
     "name": "Bristol Myers Squibb",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
@@ -62,20 +62,20 @@
   {
     "name": "Cushman & Wakefield",
     "status": "ok",
-    "colombiaPostings": 1,
+    "colombiaPostings": 2,
     "matches": 0
   },
   {
     "name": "Diageo",
     "status": "ok",
-    "colombiaPostings": 10,
+    "colombiaPostings": 14,
     "matches": 3
   },
   {
     "name": "Elanco",
     "status": "ok",
-    "colombiaPostings": 4,
-    "matches": 1
+    "colombiaPostings": 7,
+    "matches": 3
   },
   {
     "name": "FedEx",
@@ -152,7 +152,7 @@
   {
     "name": "Medtronic",
     "status": "ok",
-    "colombiaPostings": 19,
+    "colombiaPostings": 18,
     "matches": 0
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Mondelēz International",
     "status": "ok",
-    "colombiaPostings": 14,
+    "colombiaPostings": 16,
     "matches": 2
   },
   {
@@ -176,7 +176,7 @@
   {
     "name": "Pfizer",
     "status": "ok",
-    "colombiaPostings": 3,
+    "colombiaPostings": 4,
     "matches": 0
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Sanofi",
     "status": "ok",
-    "colombiaPostings": 7,
+    "colombiaPostings": 8,
     "matches": 0
   },
   {
