@@ -43,10 +43,9 @@
   },
   {
     "name": "Caterpillar",
-    "status": "error",
+    "status": "no-colombia-facet",
     "colombiaPostings": 0,
-    "matches": 0,
-    "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "matches": 0
   },
   {
     "name": "CHEP / Brambles",
@@ -62,10 +61,9 @@
   },
   {
     "name": "Cushman & Wakefield",
-    "status": "error",
-    "colombiaPostings": 0,
-    "matches": 0,
-    "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "status": "ok",
+    "colombiaPostings": 2,
+    "matches": 0
   },
   {
     "name": "Diageo",
@@ -81,10 +79,9 @@
   },
   {
     "name": "FedEx",
-    "status": "error",
+    "status": "no-colombia-facet",
     "colombiaPostings": 0,
-    "matches": 0,
-    "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "matches": 0
   },
   {
     "name": "Ferring",
@@ -106,31 +103,27 @@
   },
   {
     "name": "General Motors",
-    "status": "error",
-    "colombiaPostings": 0,
-    "matches": 0,
-    "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 0
   },
   {
     "name": "HP",
-    "status": "error",
-    "colombiaPostings": 0,
-    "matches": 0,
-    "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "status": "ok",
+    "colombiaPostings": 1,
+    "matches": 1
   },
   {
     "name": "HPE",
-    "status": "error",
-    "colombiaPostings": 0,
-    "matches": 0,
-    "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "status": "ok",
+    "colombiaPostings": 10,
+    "matches": 0
   },
   {
     "name": "Intel",
-    "status": "error",
+    "status": "no-colombia-facet",
     "colombiaPostings": 0,
-    "matches": 0,
-    "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+    "matches": 0
   },
   {
     "name": "Kimberly-Clark",
